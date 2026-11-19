@@ -1,3 +1,4 @@
+import { auth } from "@clerk/nextjs/server";
 import type { Metadata } from "next";
 import { getIndex } from "@/lib/content";
 import BookmarksView from "@/components/BookmarksView";
@@ -7,7 +8,8 @@ export const metadata: Metadata = {
   description: "Your bookmarked questions and the review queue — Again and Hard ratings first.",
 };
 
-export default function BookmarksPage() {
+export default async function BookmarksPage() {
+  await auth.protect();
   const index = getIndex();
   const papers = index.papers.map((p) => ({
     id: p.id,

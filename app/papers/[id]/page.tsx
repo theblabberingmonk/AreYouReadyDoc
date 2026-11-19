@@ -1,20 +1,16 @@
+import { auth } from "@clerk/nextjs/server";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getPaper, getPaperIds, getPaperNeighbours } from "@/lib/content";
+import { getPaper, getPaperNeighbours } from "@/lib/content";
 import PaperReader from "@/components/PaperReader";
-
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return getPaperIds().map((id) => ({ id }));
-}
 
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ id: string }>;
 }): Promise<Metadata> {
+  await auth.protect();
   const { id } = await params;
   const paper = getPaper(id);
   if (!paper) return { title: "Paper not found" };
@@ -29,6 +25,7 @@ export default async function PaperPage({
 }: {
   params: Promise<{ id: string }>;
 }) {
+  await auth.protect();
   const { id } = await params;
   const paper = getPaper(id);
   if (!paper) notFound();

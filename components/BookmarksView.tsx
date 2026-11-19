@@ -88,7 +88,7 @@ export default function BookmarksView({ papers }: { papers: PaperInfo[] }) {
               While reading a paper, tap the ☆ beside any question to keep it
               here for a quick revisit before the exam.
             </p>
-            <Link href="/" className="btn" style={{ marginTop: 12 }}>
+            <Link href="/library" className="btn" style={{ marginTop: 12 }}>
               Browse the papers
             </Link>
           </div>

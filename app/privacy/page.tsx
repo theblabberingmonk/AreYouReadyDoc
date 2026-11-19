@@ -15,8 +15,8 @@ export default function PrivacyPage() {
         <h2>Your revision record</h2>
         <p>
           Questions you mark as revised, bookmarks and notes are stored{" "}
-          <strong>in your own browser</strong> (local storage). Nothing is sent
-          anywhere unless you sign in.
+          <strong>in your own browser</strong> (local storage). Your account is required to access the study material; when signed in,
+          these changes are also sent to our database so your record follows you across devices.
         </p>
         <h2>If you sign in</h2>
         <p>

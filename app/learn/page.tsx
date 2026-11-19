@@ -1,3 +1,4 @@
+import { auth } from "@clerk/nextjs/server";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getLessonsIndex } from "@/lib/content";
@@ -10,7 +11,8 @@ export const metadata: Metadata = {
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV"];
 
-export default function LearnPage() {
+export default async function LearnPage() {
+  await auth.protect();
   const lessons = getLessonsIndex();
   return (
     <main className="shell" style={{ padding: "44px 24px 72px" }}>

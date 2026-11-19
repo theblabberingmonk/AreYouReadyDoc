@@ -8,7 +8,7 @@ import SyncManager from "./SyncManager";
 
 export default function SiteNav() {
   const pathname = usePathname();
-  const isPapers = pathname === "/" || pathname.startsWith("/papers");
+  const isPapers = pathname === "/library" || pathname.startsWith("/papers");
   const isLearn = pathname.startsWith("/learn");
   const isTopics = pathname.startsWith("/topics");
   const isSearch = pathname.startsWith("/search");
@@ -16,7 +16,7 @@ export default function SiteNav() {
 
   return (
     <nav className="site-nav" aria-label="Primary">
-      <Link href="/" aria-current={isPapers ? "page" : undefined}>
+      <Link href="/library" aria-current={isPapers ? "page" : undefined}>
         Papers
       </Link>
       <Link href="/learn" aria-current={isLearn ? "page" : undefined}>

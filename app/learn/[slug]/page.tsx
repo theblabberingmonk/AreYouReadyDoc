@@ -1,3 +1,4 @@
+import { auth } from "@clerk/nextjs/server";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -6,17 +7,12 @@ import remarkGfm from "remark-gfm";
 import { getLesson, getLessonSlugs } from "@/lib/content";
 import LessonQuestionList from "@/components/LessonQuestionList";
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return getLessonSlugs().map((slug) => ({ slug }));
-}
-
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
+  await auth.protect();
   const { slug } = await params;
   const lesson = getLesson(slug);
   if (!lesson) return { title: "Module not found" };
@@ -33,6 +29,7 @@ export default async function LessonPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  await auth.protect();
   const { slug } = await params;
   const lesson = getLesson(slug);
   if (!lesson) notFound();

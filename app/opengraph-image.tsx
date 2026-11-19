@@ -36,10 +36,10 @@ export default function OgImage() {
             fontFamily: "Georgia, serif",
           }}
         >
-          The papers, answered.
+          Big exam. Clearer plan.
         </div>
         <div style={{ fontSize: 28, color: "#3f5152", marginTop: 28 }}>
-          17 papers · 170 theory questions · illustrated model answers
+          AreYouReadyDoc · Your DrNB Paediatric Surgery study space
         </div>
       </div>
     ),

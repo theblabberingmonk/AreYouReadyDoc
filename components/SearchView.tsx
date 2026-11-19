@@ -70,7 +70,7 @@ export default function SearchView() {
         <div className="empty-state" style={{ marginTop: 20 }}>
           <p className="empty-state__title">Search did not load.</p>
           <p>Check your connection and try again — the papers below still read fine.</p>
-          <Link href="/" className="btn" style={{ marginTop: 12 }}>
+          <Link href="/library" className="btn" style={{ marginTop: 12 }}>
             Browse the papers
           </Link>
         </div>

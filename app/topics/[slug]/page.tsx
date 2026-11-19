@@ -1,20 +1,16 @@
+import { auth } from "@clerk/nextjs/server";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getTopic, getTopicSlugs, getIndex } from "@/lib/content";
+import { getTopic, getIndex } from "@/lib/content";
 import TopicQuestionList from "@/components/TopicQuestionList";
-
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return getTopicSlugs().map((slug) => ({ slug }));
-}
 
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
+  await auth.protect();
   const { slug } = await params;
   const topic = getTopic(slug);
   if (!topic) return { title: "Topic not found" };
@@ -31,6 +27,7 @@ export default async function TopicPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  await auth.protect();
   const { slug } = await params;
   const topic = getTopic(slug);
   if (!topic) notFound();

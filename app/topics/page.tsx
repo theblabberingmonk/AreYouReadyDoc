@@ -1,3 +1,4 @@
+import { auth } from "@clerk/nextjs/server";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getTopics } from "@/lib/content";
@@ -9,7 +10,8 @@ export const metadata: Metadata = {
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV"];
 
-export default function TopicsPage() {
+export default async function TopicsPage() {
+  await auth.protect();
   const topics = getTopics();
   return (
     <main className="shell" style={{ padding: "44px 24px 72px" }}>

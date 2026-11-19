@@ -1,9 +1,8 @@
 "use client";
 
 /**
- * Client-side ranked search over the pre-built /search-index.json.
- * Lazy-loaded on first use; no dependencies, no network beyond the static
- * asset. Hand-rolled ranking beats a library here: 170 docs, three fields.
+ * Client-side ranked search over the pre-built /api/search.
+ * Lazy-loaded on first use; no dependencies, no network beyond the authenticated index. Hand-rolled ranking beats a library here: 170 docs, three fields.
  */
 
 export interface SearchDoc {
@@ -29,7 +28,7 @@ let inflight: Promise<SearchDoc[]> | null = null;
 export function loadIndex(): Promise<SearchDoc[]> {
   if (cached) return Promise.resolve(cached);
   if (inflight) return inflight;
-  inflight = fetch("/search-index.json")
+  inflight = fetch("/api/search")
     .then((response) => {
       if (!response.ok) throw new Error(`search index ${response.status}`);
       return response.json();
