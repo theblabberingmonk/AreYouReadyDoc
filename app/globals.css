@@ -1216,3 +1216,13 @@ body { min-width: 320px; }
   :root { --ink-3: #344b40; --line: #83947e; }
   .notebook-steps small, .notebook-heading .eyebrow { color: #344b40; }
 }
+.public-nav .nav-signin { display: inline-flex; align-items: center; min-height: 44px; }
+.public-nav > .btn { min-height: 44px; }
+.text-link { min-height: 44px; }
+.text-link > svg, .auth-privacy svg { width: 12px; height: 12px; }
+.auth-privacy a { display: inline-flex; align-items: center; gap: 4px; min-height: 44px; }
+.tiny-cross svg { display: block; width: 26px; height: 26px; }
+.notebook-bottom > svg { width: 12px; height: 12px; margin-left: auto; }
+.visual-caption > svg { width: 22px; height: 22px; }
+#features, #how-it-works { scroll-margin-top: 112px; }
+.site-footer__nav a { display: inline-flex; align-items: center; min-height: 44px; }

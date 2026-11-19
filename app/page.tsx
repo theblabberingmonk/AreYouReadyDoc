@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getIndex, getLessonsIndex } from "@/lib/content";
-import { ArrowRight, BookOpen, Layers, CheckCircle, Clock, Bookmark, Shield } from "@/components/Icons";
+import { ArrowRight, BookOpen, Layers, CheckCircle, Clock, Bookmark, Shield, ArrowUpRight, Asterisk, CornerArrow } from "@/components/Icons";
 
 export default function HomePage() {
   const index = getIndex();
@@ -14,12 +14,12 @@ export default function HomePage() {
           <p className="hero-description">Your residency is demanding enough. Bring your past papers, illustrated answers and revision into one focused study space.</p>
           <div className="hero-actions">
             <Link className="btn btn-primary btn-large" href="/sign-up">Start preparing <ArrowRight /></Link>
-            <Link className="text-link" href="/sign-in">Already have an account? Sign in <span aria-hidden="true">↗</span></Link>
+            <Link className="text-link" href="/sign-in">Already have an account? Sign in <ArrowUpRight /></Link>
           </div>
           <p className="hero-note"><Shield /> Your notes. Your progress. One account.</p>
         </div>
         <div className="hero-visual" aria-label="Illustration of the study workflow">
-          <div className="visual-topline"><span className="tiny-cross">✳</span><span>A LITTLE STRUCTURE GOES A LONG WAY</span></div>
+          <div className="visual-topline"><span className="tiny-cross"><Asterisk /></span><span>A LITTLE STRUCTURE GOES A LONG WAY</span></div>
           <div className="study-notebook">
             <div className="notebook-heading"><span className="eyebrow">Your next chapter</span><BookOpen /></div>
             <h2>One focused<br />session at a time.</h2>
@@ -29,9 +29,9 @@ export default function HomePage() {
               <div><span className="step-icon"><Layers /></span><span><strong>Put your knowledge to work</strong><small>Practise with past theory papers</small></span><span className="step-number">02</span></div>
               <div><span className="step-icon"><CheckCircle /></span><span><strong>Come back stronger</strong><small>Save, track and revisit your revision</small></span><span className="step-number">03</span></div>
             </div>
-            <div className="notebook-bottom"><span className="status-light" /> Built around the way you study <span aria-hidden="true">↗</span></div>
+            <div className="notebook-bottom"><span className="status-light" /> Built around the way you study <ArrowUpRight /></div>
           </div>
-          <div className="visual-caption"><span>Less scattered. More prepared.</span><span aria-hidden="true">↳</span></div>
+          <div className="visual-caption"><span>Less scattered. More prepared.</span><CornerArrow /></div>
         </div>
       </section>
 
