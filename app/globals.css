@@ -501,6 +501,30 @@ h1 { font-size: clamp(2rem, 1.4rem + 2.6vw, 3.1rem); line-height: 1.12; margin: 
 }
 @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
 
+/* ---------- Auth ---------- */
+.auth-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8px;
+}
+.btn-sm { padding: 7px 13px; font-size: 0.8rem; }
+.auth-avatar { width: 30px; height: 30px; }
+
+.auth-page { padding: 48px 24px 72px; max-width: 560px; }
+.auth-page h1 { margin-bottom: 12px; }
+.auth-page .lede { margin-bottom: 28px; }
+.auth-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 28px;
+  box-shadow: var(--shadow);
+}
+@media (max-width: 640px) {
+  .auth-card { padding: 18px 12px; }
+}
+
 /* ---------- Buttons ---------- */
 .btn {
   display: inline-flex;
