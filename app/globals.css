@@ -861,6 +861,35 @@ h1 { font-size: clamp(2rem, 1.4rem + 2.6vw, 3.1rem); line-height: 1.12; margin: 
   font-weight: 700;
 }
 
+/* ---------- AI elaboration ---------- */
+.ai-block {
+  margin-top: 24px;
+  border-top: 1px dashed var(--line-strong);
+  padding-top: 18px;
+}
+.ai-block--signedout p { font-size: 0.88rem; color: var(--ink-2); max-width: 46ch; }
+.ai-block--done {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-top: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 18px;
+}
+.ai-skeleton { display: grid; gap: 10px; margin-top: 12px; }
+.ai-skeleton span {
+  display: block;
+  height: 14px;
+  border-radius: 7px;
+  background: var(--surface-2);
+  animation: pulse 1.4s var(--ease) infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+.ai-disclaimer { font-size: 0.76rem !important; margin-top: 14px; }
+.ai-feedback { display: flex; gap: 8px; margin-top: 12px; }
+
 /* ---------- Footer ---------- */
 .site-footer {
   border-top: 1px solid var(--line);

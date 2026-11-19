@@ -22,26 +22,30 @@ in our own text.
 
 ## Architecture
 
+Shipped as specified (non-streaming JSON first; streaming deferred):
+
 ```
 Browser (signed-in only)
   │ POST /api/ai/explain { ref: "01:3" }
   ▼
 Vercel route handler (server)
-  1. auth check (Supabase session)
-  2. quota check: count(ai_usage where user, today) < DAILY_LIMIT
-  3. cache check: ai_cache[key] → stream cached body if hit (no quota spent)
-  4. load question (prompt + published body_md) from repo content server-side
-  5. call OpenCode Go API with system prompt + content, stream response
-  6. store ai_cache + ai_usage rows (service role)
+  1. auth check (Clerk session)
+  2. enabled + key check (AI_ENABLED, OPENCODE_GO_API_KEY)
+  3. ref validation + question load from repo content server-side
+  4. cache check: ai_cache[key] → return cached body if hit (no quota spent)
+  5. quota check: count(ai_usage where user, last 24h) < AI_DAILY_LIMIT
+  6. call OpenCode Go /chat/completions (45s timeout), store ai_cache + ai_usage
 ```
 
 - **Key handling**: `OPENCODE_GO_API_KEY` in Vercel env, server-only. Never in
   the client bundle, never logged, never in error messages.
-- **Provider integration (spike P5-T1)**: confirm the OpenCode Go API surface —
-  base URL, auth header, model IDs, streaming, and whether it is
-  OpenAI-compatible (if yes: Vercel AI SDK `createOpenAI({ baseURL, apiKey })`;
-  if not: thin hand-rolled `fetch` client behind the same `explain()` interface).
-  The route handler depends only on the interface, not the provider shape.
+- **Provider integration (spike 2026-11-19, done)**: OpenCode Go is
+  OpenAI-compatible at `https://opencode.ai/zen/go/v1` (`POST
+  /chat/completions`, Bearer key, e.g. model `deepseek-v4-pro`). The route
+  calls it with plain `fetch` behind the `explain()` shape — no AI SDK
+  needed. Base URL overridable via `OPENCODE_GO_BASE_URL`, model via
+  `AI_MODEL`. If the provider ever moves, only `app/api/ai/explain/route.ts`
+  changes.
 - **Model choice**: default to the provider's mid-tier general model;
   overridable via `AI_MODEL` env. No per-request model switching by users.
 

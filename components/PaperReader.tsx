@@ -5,6 +5,7 @@ import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Paper, Question } from "@/lib/content";
+import ExplainDeeper from "@/components/ExplainDeeper";
 import { useStore, toggleRevised, toggleBookmark, saveNote, refOf } from "@/lib/progress";
 
 const ASSET_PREFIX = "assets/";
@@ -284,6 +285,7 @@ export default function PaperReader({ paper }: { paper: Paper }) {
                     <div className="prose">
                       <AnswerMarkdown md={question.body_md} />
                     </div>
+                    <ExplainDeeper paperId={paper.id} n={question.n} />
                     {question.has_image ? (
                       <Figure paperId={paper.id} question={question} onZoom={(src, alt) => setZoom({ src, alt })} />
                     ) : null}
