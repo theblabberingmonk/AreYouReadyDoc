@@ -1,0 +1,1364 @@
+{
+ "topics": [
+  {
+   "slug": "gi-hepatobiliary",
+   "name": "GI & hepatobiliary",
+   "syllabus_area": 10,
+   "count": 34,
+   "questions": [
+    {
+     "paper": "01",
+     "n": 5,
+     "title": "Upper gastrointestinal bleeding in children",
+     "marks": ""
+    },
+    {
+     "paper": "01",
+     "n": 7,
+     "title": "Choledochal cyst and bilirubin metabolism",
+     "marks": ""
+    },
+    {
+     "paper": "01",
+     "n": 9,
+     "title": "Caustic ingestion, stricture and endoscopy",
+     "marks": ""
+    },
+    {
+     "paper": "02",
+     "n": 1,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "02",
+     "n": 3,
+     "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+     "marks": ""
+    },
+    {
+     "paper": "02",
+     "n": 4,
+     "title": "Achalasia cardia",
+     "marks": ""
+    },
+    {
+     "paper": "02",
+     "n": 5,
+     "title": "Anorectal malformations, pouch colon and postoperative continence",
+     "marks": ""
+    },
+    {
+     "paper": "02",
+     "n": 10,
+     "title": "Caustic ingestion, stricture and endoscopy",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 4,
+     "title": "Portal hypertension, EHPVO, shunts and Budd-Chiari",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 1,
+     "title": "Choledochal cyst and bilirubin metabolism",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 2,
+     "title": "Appendicitis and intussusception",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 3,
+     "title": "Intestinal, colonic and pyloric atresia",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 5,
+     "title": "Intestinal, colonic and pyloric atresia",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 10,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 2,
+     "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 3,
+     "title": "Intestinal rotation, malrotation and midgut volvulus",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 6,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 7,
+     "title": "Caustic ingestion, stricture and endoscopy",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 10,
+     "title": "Alimentary duplications, Meckel diverticulum and mesenteric lesions",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 9,
+     "title": "Pyloric stenosis: biochemical disturbance and optimization",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 5,
+     "title": "Hepatoblastoma, HCC, mesenchymal hamartoma and liver anatomy",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 8,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 9,
+     "title": "Anorectal malformations, pouch colon and postoperative continence",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 1,
+     "title": "Portal hypertension, EHPVO, shunts and Budd-Chiari",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 3,
+     "title": "Anorectal malformations, pouch colon and postoperative continence",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 9,
+     "title": "Anorectal malformations, pouch colon and postoperative continence",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 8,
+     "title": "Enteric neuromuscular disorders, appendix reconstruction and manometry",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 10,
+     "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 4,
+     "title": "Paediatric kidney/liver transplantation and immunosuppression",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 1,
+     "title": "Intestinal, colonic and pyloric atresia",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 2,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 3,
+     "title": "Anorectal malformations, pouch colon and postoperative continence",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 9,
+     "title": "Intestinal rotation, malrotation and midgut volvulus",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 7,
+     "title": "Paediatric kidney/liver transplantation and immunosuppression",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "neonatal-emergencies",
+   "name": "Neonatal emergencies",
+   "syllabus_area": 5,
+   "count": 34,
+   "questions": [
+    {
+     "paper": "01",
+     "n": 4,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "01",
+     "n": 6,
+     "title": "Omphalocele, gastroschisis, umbilical defects and complex associations",
+     "marks": ""
+    },
+    {
+     "paper": "01",
+     "n": 10,
+     "title": "Neonatal obstruction and meconium ileus",
+     "marks": ""
+    },
+    {
+     "paper": "02",
+     "n": 3,
+     "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+     "marks": ""
+    },
+    {
+     "paper": "02",
+     "n": 6,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "02",
+     "n": 7,
+     "title": "Neonatal obstruction and meconium ileus",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 5,
+     "title": "Fetal circulation, screening, fetal surgery and EXIT",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 4,
+     "title": "Neonatal obstruction and meconium ileus",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 5,
+     "title": "Antenatal hydronephrosis, UPJ obstruction and biomarkers",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 6,
+     "title": "Necrotising enterocolitis",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 8,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 6,
+     "title": "Omphalocele, gastroschisis, umbilical defects and complex associations",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 9,
+     "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 1,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 2,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 2,
+     "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 5,
+     "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 1,
+     "title": "Lung development and antenatally diagnosed CPAM",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 1,
+     "title": "Omphalocele, gastroschisis, umbilical defects and complex associations",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 2,
+     "title": "Neonatal obstruction and meconium ileus",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 4,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 7,
+     "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 2,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 1,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 7,
+     "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 10,
+     "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 1,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 8,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 9,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 10,
+     "title": "Fetal circulation, screening, fetal surgery and EXIT",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 4,
+     "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 10,
+     "title": "Necrotising enterocolitis",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 6,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 10,
+     "title": "Fetal circulation, screening, fetal surgery and EXIT",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "urology",
+   "name": "Paediatric urology",
+   "syllabus_area": 10,
+   "count": 30,
+   "questions": [
+    {
+     "paper": "01",
+     "n": 8,
+     "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 3,
+     "title": "Bladder innervation, urodynamics and neurogenic bladder",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 6,
+     "title": "Bladder innervation, urodynamics and neurogenic bladder",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 8,
+     "title": "Bladder augmentation and continent urinary reconstruction",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 5,
+     "title": "Antenatal hydronephrosis, UPJ obstruction and biomarkers",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 7,
+     "title": "Persistent cloaca, hydrocolpos and genital obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 1,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 2,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 4,
+     "title": "Hypospadias, curvature and graft urethroplasty",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 7,
+     "title": "Bladder augmentation and continent urinary reconstruction",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 8,
+     "title": "VUR, UTIs and ureteric reimplantation",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 9,
+     "title": "Testicular descent, impalpable testis and orchidopexy",
+     "marks": ""
+    },
+    {
+     "paper": "09",
+     "n": 3,
+     "title": "VUR, UTIs and ureteric reimplantation",
+     "marks": ""
+    },
+    {
+     "paper": "09",
+     "n": 4,
+     "title": "Hypospadias, curvature and graft urethroplasty",
+     "marks": ""
+    },
+    {
+     "paper": "09",
+     "n": 5,
+     "title": "Bladder augmentation and continent urinary reconstruction",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 5,
+     "title": "Paediatric renal transplantation",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 7,
+     "title": "Bladder innervation and neurogenic bladder pharmacotherapy",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 2,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 4,
+     "title": "Persistent cloaca, hydrocolpos and genital obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 6,
+     "title": "Sexual differentiation, CAH and multidisciplinary DSD assessment",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 7,
+     "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 4,
+     "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 5,
+     "title": "Testicular descent, impalpable testis and orchidopexy",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 9,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 1,
+     "title": "Bladder exstrophy, epispadias and prune-belly syndrome",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 2,
+     "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 3,
+     "title": "Hypospadias, curvature and graft urethroplasty",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 4,
+     "title": "Bladder innervation, urodynamics and neurogenic bladder",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 5,
+     "title": "VUR, UTIs and ureteric reimplantation",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 9,
+     "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "operative-tech",
+   "name": "Operative technique & technology",
+   "syllabus_area": 11,
+   "count": 19,
+   "questions": [
+    {
+     "paper": "02",
+     "n": 1,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 2,
+     "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 9,
+     "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 10,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 4,
+     "title": "Hypospadias, curvature and graft urethroplasty",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 5,
+     "title": "Conjoined and heteropagus twins",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 10,
+     "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 6,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "09",
+     "n": 1,
+     "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+     "marks": ""
+    },
+    {
+     "paper": "09",
+     "n": 4,
+     "title": "Hypospadias, curvature and graft urethroplasty",
+     "marks": ""
+    },
+    {
+     "paper": "09",
+     "n": 10,
+     "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 10,
+     "title": "PET, surgical lasers and 3D reconstruction",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 8,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 5,
+     "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 3,
+     "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 2,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 3,
+     "title": "Hypospadias, curvature and graft urethroplasty",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 1,
+     "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 2,
+     "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "oncology",
+   "name": "Paediatric oncology",
+   "syllabus_area": 13,
+   "count": 19,
+   "questions": [
+    {
+     "paper": "04",
+     "n": 2,
+     "title": "Germ-cell tumours, sacrococcygeal teratoma and testis preservation",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 3,
+     "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+     "marks": ""
+    },
+    {
+     "paper": "05",
+     "n": 2,
+     "title": "Neuroblastoma: biology, INSS, INRGSS and stage MS",
+     "marks": ""
+    },
+    {
+     "paper": "05",
+     "n": 7,
+     "title": "Germ-cell tumours, sacrococcygeal teratoma and testis preservation",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 3,
+     "title": "Vascular tumours, malformations and Kasabach-Merritt phenomenon",
+     "marks": ""
+    },
+    {
+     "paper": "09",
+     "n": 6,
+     "title": "Vascular tumours, malformations and Kasabach-Merritt phenomenon",
+     "marks": ""
+    },
+    {
+     "paper": "09",
+     "n": 7,
+     "title": "Neuroblastoma: biology, INSS, INRGSS and stage MS",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 2,
+     "title": "Chemotherapy: mechanisms, toxicities and febrile neutropenia",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 4,
+     "title": "Childhood germ-cell tumours: origin, pathology and markers",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 5,
+     "title": "Hepatoblastoma, HCC, mesenchymal hamartoma and liver anatomy",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 8,
+     "title": "Rhabdomyosarcoma, paratesticular and bladder disease",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 10,
+     "title": "Wilms tumour: staging, risk and nephron-sparing surgery",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 9,
+     "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 2,
+     "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 3,
+     "title": "Neuroblastoma: biology, INSS, INRGSS and stage MS",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 10,
+     "title": "Vascular tumours, malformations and Kasabach-Merritt phenomenon",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 5,
+     "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 6,
+     "title": "Wilms tumour: staging, risk and nephron-sparing surgery",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 8,
+     "title": "Rhabdomyosarcoma, paratesticular and bladder disease",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "perioperative-critical",
+   "name": "Perioperative & critical care",
+   "syllabus_area": 7,
+   "count": 17,
+   "questions": [
+    {
+     "paper": "01",
+     "n": 1,
+     "title": "Vascular access, chemo-port and parenteral/enteral nutrition",
+     "marks": ""
+    },
+    {
+     "paper": "01",
+     "n": 2,
+     "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+     "marks": ""
+    },
+    {
+     "paper": "01",
+     "n": 3,
+     "title": "Ventilation, ECMO and neonatal surgical intensive care",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 7,
+     "title": "Ventilation, ECMO and neonatal surgical intensive care",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 9,
+     "title": "Neonatal thermoregulation, stress response and transport",
+     "marks": ""
+    },
+    {
+     "paper": "05",
+     "n": 6,
+     "title": "Intestinal failure, nutrition and transplantation",
+     "marks": ""
+    },
+    {
+     "paper": "05",
+     "n": 9,
+     "title": "Neonatal sepsis, legacy SIRS and MODS",
+     "marks": ""
+    },
+    {
+     "paper": "05",
+     "n": 10,
+     "title": "Vascular access, chemo-port and parenteral/enteral nutrition",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 1,
+     "title": "Intestinal failure, nutrition and transplantation",
+     "marks": ""
+    },
+    {
+     "paper": "09",
+     "n": 2,
+     "title": "Establishing and using a neonatal surgical intensive-care unit",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 5,
+     "title": "Paediatric renal transplantation",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 6,
+     "title": "Neonatal shock: recognition and management",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 2,
+     "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 4,
+     "title": "Paediatric kidney/liver transplantation and immunosuppression",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 6,
+     "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 3,
+     "title": "Neonatal thermoregulation, stress response and transport",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 7,
+     "title": "Paediatric kidney/liver transplantation and immunosuppression",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "basic-sciences",
+   "name": "Basic sciences",
+   "syllabus_area": 1,
+   "count": 13,
+   "questions": [
+    {
+     "paper": "01",
+     "n": 4,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "02",
+     "n": 6,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 5,
+     "title": "Fetal circulation, screening, fetal surgery and EXIT",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 8,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 4,
+     "title": "Pharyngeal arches: exam table of nerves, muscles and arteries",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 4,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 1,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 1,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 8,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 10,
+     "title": "Fetal circulation, screening, fetal surgery and EXIT",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 6,
+     "title": "Pharyngeal arches: exam table of nerves, muscles and arteries",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 6,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 10,
+     "title": "Fetal circulation, screening, fetal surgery and EXIT",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "thoracic",
+   "name": "Thoracic surgery",
+   "syllabus_area": 10,
+   "count": 9,
+   "questions": [
+    {
+     "paper": "02",
+     "n": 8,
+     "title": "Chest-wall deformities and pectus repair",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 10,
+     "title": "Lung development, CPAM, sequestration and lobar resection",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 1,
+     "title": "Lung development, CPAM, sequestration and lobar resection",
+     "marks": ""
+    },
+    {
+     "paper": "06",
+     "n": 8,
+     "title": "Chest-wall deformities and pectus repair",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 4,
+     "title": "Empyema, chylothorax, mediastinal masses and lung hydatid",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 1,
+     "title": "Lung development and antenatally diagnosed CPAM",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 10,
+     "title": "Chest-wall deformities and pectus repair",
+     "marks": ""
+    },
+    {
+     "paper": "13",
+     "n": 6,
+     "title": "Lung development, CPAM, sequestration and lobar resection",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 5,
+     "title": "Lung development, CPAM, sequestration and lobar resection",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "investigations",
+   "name": "Investigations",
+   "syllabus_area": 8,
+   "count": 8,
+   "questions": [
+    {
+     "paper": "03",
+     "n": 1,
+     "title": "Renal scintigraphy, diuretic renography and L,L-EC",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 3,
+     "title": "Bladder innervation, urodynamics and neurogenic bladder",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 6,
+     "title": "Bladder innervation, urodynamics and neurogenic bladder",
+     "marks": ""
+    },
+    {
+     "paper": "05",
+     "n": 1,
+     "title": "PET, molecular imaging, ultrasound and image-guided intervention",
+     "marks": ""
+    },
+    {
+     "paper": "09",
+     "n": 8,
+     "title": "Renal scintigraphy, diuretic renography and L,L-EC",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 10,
+     "title": "PET, surgical lasers and 3D reconstruction",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 4,
+     "title": "Bladder innervation, urodynamics and neurogenic bladder",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 7,
+     "title": "Renal scintigraphy, diuretic renography and L,L-EC",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "neurosurgery",
+   "name": "Neurosurgery",
+   "syllabus_area": 10,
+   "count": 7,
+   "questions": [
+    {
+     "paper": "02",
+     "n": 2,
+     "title": "Neural-tube defects, tethered cord and the MOMS trial",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 4,
+     "title": "Portal hypertension, EHPVO, shunts and Budd-Chiari",
+     "marks": ""
+    },
+    {
+     "paper": "07",
+     "n": 6,
+     "title": "Neural-tube defects, tethered cord and the MOMS trial",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 3,
+     "title": "Neural-tube defects, tethered cord and the MOMS trial",
+     "marks": ""
+    },
+    {
+     "paper": "11",
+     "n": 6,
+     "title": "CSF circulation, hydrocephalus and shunt complications",
+     "marks": ""
+    },
+    {
+     "paper": "12",
+     "n": 1,
+     "title": "Portal hypertension, EHPVO, shunts and Budd-Chiari",
+     "marks": ""
+    },
+    {
+     "paper": "16",
+     "n": 8,
+     "title": "CSF circulation, hydrocephalus and shunt complications",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "plastic-reconstructive",
+   "name": "Plastic & head-neck",
+   "syllabus_area": 10,
+   "count": 7,
+   "questions": [
+    {
+     "paper": "02",
+     "n": 9,
+     "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+     "marks": ""
+    },
+    {
+     "paper": "03",
+     "n": 7,
+     "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+     "marks": ""
+    },
+    {
+     "paper": "04",
+     "n": 10,
+     "title": "Branchial anomalies, thyroglossal tract and cervical lymphadenopathy",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 8,
+     "title": "Branchial anomalies, thyroglossal tract and cervical lymphadenopathy",
+     "marks": ""
+    },
+    {
+     "paper": "08",
+     "n": 9,
+     "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 7,
+     "title": "Branchial anomalies, thyroglossal tract and cervical lymphadenopathy",
+     "marks": ""
+    },
+    {
+     "paper": "15",
+     "n": 8,
+     "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "trauma-burns",
+   "name": "Trauma & burns",
+   "syllabus_area": 12,
+   "count": 6,
+   "questions": [
+    {
+     "paper": "05",
+     "n": 3,
+     "title": "Paediatric trauma, FAST, solid-organ injury and emergency airway",
+     "marks": ""
+    },
+    {
+     "paper": "05",
+     "n": 4,
+     "title": "Trauma scores, SCIWORA, burns and compartment syndromes",
+     "marks": ""
+    },
+    {
+     "paper": "05",
+     "n": 5,
+     "title": "Trauma scores, SCIWORA, burns and compartment syndromes",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 3,
+     "title": "Paediatric GCS, Paediatric Trauma Score and ISS",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 7,
+     "title": "Paediatric trauma, FAST, solid-organ injury and emergency airway",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 4,
+     "title": "Paediatric trauma, FAST, solid-organ injury and emergency airway",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "research-ethics",
+   "name": "Research, statistics & ethics",
+   "syllabus_area": 14,
+   "count": 4,
+   "questions": [
+    {
+     "paper": "05",
+     "n": 8,
+     "title": "Research designs, statistics, bias and publication metrics",
+     "marks": ""
+    },
+    {
+     "paper": "10",
+     "n": 8,
+     "title": "Levels of evidence, randomized trials and cohort studies",
+     "marks": ""
+    },
+    {
+     "paper": "14",
+     "n": 5,
+     "title": "Research designs, statistics, bias and publication metrics",
+     "marks": ""
+    },
+    {
+     "paper": "17",
+     "n": 9,
+     "title": "Research designs, statistics, bias and publication metrics",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "slug": "endocrine-bariatric",
+   "name": "Endocrine & bariatric",
+   "syllabus_area": 10,
+   "count": 1,
+   "questions": [
+    {
+     "paper": "09",
+     "n": 9,
+     "title": "Childhood obesity and adolescent metabolic surgery",
+     "marks": ""
+    }
+   ]
+  }
+ ]
+}

@@ -57,6 +57,47 @@ export type Paper = z.infer<typeof PaperSchema>;
 export type PaperIndexEntry = z.infer<typeof IndexEntrySchema>;
 export type ContentIndex = z.infer<typeof ContentIndexSchema>;
 
+const TopicQuestionSchema = z.object({
+  paper: z.string(),
+  n: z.number().int(),
+  title: z.string(),
+  marks: z.string().default(""),
+});
+
+const TopicSchema = z.object({
+  slug: z.string(),
+  name: z.string(),
+  syllabus_area: z.number().int(),
+  count: z.number().int().nonnegative(),
+  questions: z.array(TopicQuestionSchema),
+});
+
+const TopicsFileSchema = z.object({ topics: z.array(TopicSchema) });
+
+export type Topic = z.infer<typeof TopicSchema>;
+
+let cachedTopics: Topic[] | null = null;
+
+export function getTopics(): Topic[] {
+  if (cachedTopics) return cachedTopics;
+  const parsed = TopicsFileSchema.safeParse(readJson("topics.json"));
+  if (!parsed.success) {
+    throw new Error(
+      `Invalid data/topics.json — run export_site_data.py. ${parsed.error.message}`,
+    );
+  }
+  cachedTopics = parsed.data.topics;
+  return cachedTopics;
+}
+
+export function getTopic(slug: string): Topic | null {
+  return getTopics().find((t) => t.slug === slug) ?? null;
+}
+
+export function getTopicSlugs(): string[] {
+  return getTopics().map((t) => t.slug);
+}
+
 let cachedIndex: ContentIndex | null = null;
 const paperCache = new Map<string, Paper | null>();
 
