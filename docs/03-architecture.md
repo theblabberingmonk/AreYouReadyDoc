@@ -129,6 +129,13 @@ never committed): `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`,
 Vercel — set production Clerk keys (plus the Supabase and AI keys) in the
 Vercel project env vars before launch (see ADR-0004).
 
+Vercel variable types (Config vs Secret): `NEXT_PUBLIC_*` must be **Config**
+(the prefix forces the value into the browser bundle — correct for Clerk
+publishable and Supabase anon keys, which are public by design).
+`CLERK_SECRET_KEY` and `SUPABASE_SERVICE_ROLE_KEY` must be **Secret** with no
+public prefix. Changing any `NEXT_PUBLIC_*` value requires a fresh build
+(git push always rebuilds; dashboard Redeploy must run *without* build cache).
+
 ## Failure-mode plan
 
 | Failure | Blast radius | Mitigation |
