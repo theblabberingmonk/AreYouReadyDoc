@@ -80,21 +80,24 @@ static asset, loaded on first search focus.
 
 ## 2. Supabase schema (project `DrKidSurgeon`)
 
-Every table has `user_id uuid references auth.users` and RLS enabled with the
-same two policies (select/insert/update/delete own rows). Shown once:
+Identity is owned by Clerk ([ADR-0004](adr/0004-clerk-auth.md)): `user_id` is
+the Clerk user id (`text`, e.g. `user_xxx`), **not** `auth.users`. Server route
+handlers (`/api/sync`, `/api/ai/*`) authenticate via Clerk and use the service
+role; RLS is deny-by-default until owner policies on `auth.jwt()->>'sub'` are
+added for any future direct-client access.
 
 ```sql
+-- RLS is deny-by-default on every user table:
 alter table public.question_progress enable row level security;
-create policy "own rows" on public.question_progress
-  for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
--- repeat the same policy shape for: bookmarks, notes, exam_attempts, ai_usage
+-- (no permissive policies yet — service-role routes bypass RLS)
+-- repeat for: bookmarks, notes, exam_attempts, ai_usage, ai_cache
 ```
 
 ### `question_progress`
 
 ```sql
 create table public.question_progress (
-  user_id    uuid        not null references auth.users on delete cascade,
+  user_id    text        not null,            -- Clerk user id
   paper_id   text        not null,            -- "01"
   question_n smallint    not null,            -- 1..10
   revised    boolean     not null default true,
@@ -108,7 +111,7 @@ create table public.question_progress (
 
 ```sql
 create table public.bookmarks (
-  user_id    uuid not null references auth.users on delete cascade,
+  user_id    text not null,                   -- Clerk user id
   paper_id   text not null,
   question_n smallint not null,
   created_at timestamptz not null default now(),
@@ -120,7 +123,7 @@ create table public.bookmarks (
 
 ```sql
 create table public.notes (
-  user_id    uuid not null references auth.users on delete cascade,
+  user_id    text not null,                   -- Clerk user id
   paper_id   text not null,
   question_n smallint not null,
   body       text not null check (char_length(body) <= 2000),
@@ -134,11 +137,11 @@ create table public.notes (
 ```sql
 create table public.exam_attempts (
   id           uuid primary key default gen_random_uuid(),
-  user_id      uuid not null references auth.users on delete cascade,
+  user_id      text not null,                 -- Clerk user id
   paper_id     text not null,
   started_at   timestamptz not null,
   ended_at     timestamptz,
-  self_scores  jsonb,          -- {"1": 7, "2": 8, ...} marks out of 10, optional
+  ratings      jsonb,          -- {"1": "good", "2": "again", ...} Again/Hard/Good/Easy (spaced-repetition skill)
   created_at   timestamptz not null default now()
 );
 create index on public.exam_attempts (user_id, paper_id, created_at desc);
@@ -148,7 +151,7 @@ create index on public.exam_attempts (user_id, paper_id, created_at desc);
 
 ```sql
 create table public.ai_usage (          -- quota bookkeeping, written via service role
-  user_id    uuid not null references auth.users on delete cascade,
+  user_id    text not null,             -- Clerk user id
   feature    text not null,             -- "explain"
   ref        text not null,             -- "01:3"
   created_at timestamptz not null default now()
@@ -177,7 +180,7 @@ drnb.state.v1 = {
   progress:   { "01:3": { revised: true,  revised_at: "2026-11-18T09:00:00Z" } },
   bookmarks:  { "01:3": { created_at: "..." } },
   notes:      { "01:3": { body: "...", updated_at: "..." } },
-  attempts:   [ { paper_id, started_at, ended_at, self_scores } ],  // unsigned only
+  attempts:   [ { paper_id, started_at, ended_at, ratings } ],  // unsigned only; ratings = Again/Hard/Good/Easy per question
   sync:       { dirty: ["progress:01:3", ...], last_synced_at: "..." }
 }
 ```

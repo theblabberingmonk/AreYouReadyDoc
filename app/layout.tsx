@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { Inter, Source_Serif_4 } from "next/font/google";
-import AuthControls from "@/components/AuthControls";
+import SiteNav from "@/components/SiteNav";
 import "./globals.css";
 
 const sans = Inter({
@@ -19,6 +19,7 @@ const serif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://areyoureadydoc.vercel.app"),
   title: {
     default: "DrNB Paediatric Surgery — Past papers, answered",
     template: "%s · DrNB Paediatric Surgery",
@@ -40,14 +41,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/" className="wordmark">
                 DrNB Paediatric Surgery <small>Exam prep</small>
               </Link>
-              <nav className="site-nav" aria-label="Primary">
-                <Link href="/" aria-current="page">
-                  Papers
-                </Link>
-                <Suspense>
-                  <AuthControls />
-                </Suspense>
-              </nav>
+              <Suspense>
+                <SiteNav />
+              </Suspense>
             </div>
           </header>
 

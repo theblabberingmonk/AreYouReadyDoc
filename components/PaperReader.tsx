@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Paper, Question } from "@/lib/content";
-import { useStore, toggleRevised, refOf } from "@/lib/progress";
+import { useStore, toggleRevised, toggleBookmark, saveNote, refOf } from "@/lib/progress";
 
 const ASSET_PREFIX = "assets/";
 
@@ -69,11 +69,79 @@ function Figure({
   );
 }
 
+function NoteEditor({
+  paperId,
+  n,
+  initial,
+  onDone,
+}: {
+  paperId: string;
+  n: number;
+  initial: string;
+  onDone: () => void;
+}) {
+  const [value, setValue] = useState(initial);
+  const remaining = 2000 - value.length;
+  return (
+    <div className="note-editor">
+      <label className="note-editor__label" htmlFor={`note-${paperId}-${n}`}>
+        Your note · question {n}
+      </label>
+      <textarea
+        id={`note-${paperId}-${n}`}
+        className="note-editor__field"
+        rows={4}
+        maxLength={2000}
+        value={value}
+        onChange={(event) => setValue(event.target.value)}
+        placeholder="One line you must not forget on exam day…"
+      />
+      <div className="note-editor__row">
+        <span className="muted" style={{ fontSize: "0.76rem" }}>
+          {remaining} characters left · saved on this device
+        </span>
+        <span className="note-editor__actions">
+          {value.trim() || initial ? (
+            <button
+              type="button"
+              className="btn btn-ghost btn-sm"
+              onClick={() => {
+                saveNote(paperId, n, "");
+                onDone();
+              }}
+            >
+              Clear
+            </button>
+          ) : null}
+          <button
+            type="button"
+            className="btn btn-ghost btn-sm"
+            onClick={onDone}
+          >
+            Cancel
+          </button>
+          <button
+            type="button"
+            className="btn btn-sm"
+            onClick={() => {
+              saveNote(paperId, n, value);
+              onDone();
+            }}
+          >
+            Save note
+          </button>
+        </span>
+      </div>
+    </div>
+  );
+}
+
 export default function PaperReader({ paper }: { paper: Paper }) {
   const state = useStore();
   const total = paper.questions.length;
 
   const [open, setOpen] = useState<Set<number>>(() => new Set());
+  const [noteOpen, setNoteOpen] = useState<Set<number>>(() => new Set());
   const [zoom, setZoom] = useState<{ src: string; alt: string } | null>(null);
 
   // Deep links: /papers/01#q3 opens and focuses that question.
@@ -150,7 +218,11 @@ export default function PaperReader({ paper }: { paper: Paper }) {
         <ol className="questions">
           {paper.questions.map((question) => {
             const isOpen = open.has(question.n);
-            const revised = Boolean(state.progress[refOf(paper.id, question.n)]?.revised);
+            const ref = refOf(paper.id, question.n);
+            const revised = Boolean(state.progress[ref]?.revised);
+            const bookmarked = Boolean(state.bookmarks[ref]);
+            const note = state.notes[ref]?.body ?? "";
+            const editingNote = noteOpen.has(question.n);
             return (
               <li className="question" id={`q${question.n}`} key={question.n}>
                 <div className="question__head">
@@ -170,21 +242,34 @@ export default function PaperReader({ paper }: { paper: Paper }) {
                         ) : null}
                         {question.has_image ? <span className="pill">Illustration</span> : null}
                         {revised ? <span className="pill pill--done">Revised</span> : null}
+                        {note ? <span className="pill">Note</span> : null}
                       </span>
                     </span>
                   </button>
-                  <button
-                    type="button"
-                    className="revised-toggle"
-                    aria-pressed={revised}
-                    aria-label={`${revised ? "Unmark" : "Mark"} question ${question.n} as revised`}
-                    onClick={() => toggleRevised(paper.id, question.n)}
-                  >
-                    <span className="dot" aria-hidden="true">
-                      {revised ? "✓" : ""}
-                    </span>
-                    {revised ? "Revised" : "Mark revised"}
-                  </button>
+                  <span className="question__actions">
+                    <button
+                      type="button"
+                      className="bookmark-toggle"
+                      aria-pressed={bookmarked}
+                      aria-label={`${bookmarked ? "Remove bookmark from" : "Bookmark"} question ${question.n}`}
+                      title={bookmarked ? "Bookmarked" : "Bookmark"}
+                      onClick={() => toggleBookmark(paper.id, question.n)}
+                    >
+                      <span aria-hidden="true">{bookmarked ? "★" : "☆"}</span>
+                    </button>
+                    <button
+                      type="button"
+                      className="revised-toggle"
+                      aria-pressed={revised}
+                      aria-label={`${revised ? "Unmark" : "Mark"} question ${question.n} as revised`}
+                      onClick={() => toggleRevised(paper.id, question.n)}
+                    >
+                      <span className="dot" aria-hidden="true">
+                        {revised ? "✓" : ""}
+                      </span>
+                      {revised ? "Revised" : "Mark revised"}
+                    </button>
+                  </span>
                 </div>
 
                 {isOpen ? (
@@ -196,6 +281,33 @@ export default function PaperReader({ paper }: { paper: Paper }) {
                     {question.has_image ? (
                       <Figure paperId={paper.id} question={question} onZoom={(src, alt) => setZoom({ src, alt })} />
                     ) : null}
+                    <div className="note-block">
+                      {editingNote ? (
+                        <NoteEditor
+                          key={ref}
+                          paperId={paper.id}
+                          n={question.n}
+                          initial={note}
+                          onDone={() =>
+                            setNoteOpen((prev) => {
+                              const next = new Set(prev);
+                              next.delete(question.n);
+                              return next;
+                            })
+                          }
+                        />
+                      ) : (
+                        <button
+                          type="button"
+                          className="btn btn-ghost btn-sm"
+                          onClick={() =>
+                            setNoteOpen((prev) => new Set(prev).add(question.n))
+                          }
+                        >
+                          {note ? "Edit note" : "Add a note"}
+                        </button>
+                      )}
+                    </div>
                   </div>
                 ) : null}
               </li>

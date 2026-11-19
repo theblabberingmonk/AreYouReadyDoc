@@ -18,11 +18,20 @@ export interface ProgressEntry {
   revised_at: string;
 }
 
+export type Rating = "again" | "hard" | "good" | "easy";
+
+export const RATINGS: Array<{ value: Rating; label: string }> = [
+  { value: "again", label: "Again" },
+  { value: "hard", label: "Hard" },
+  { value: "good", label: "Good" },
+  { value: "easy", label: "Easy" },
+];
+
 export interface Attempt {
   paper_id: string;
   started_at: string;
   ended_at: string | null;
-  self_scores?: Record<string, number>;
+  ratings?: Record<string, Rating>;
 }
 
 export interface StateV1 {
@@ -162,6 +171,87 @@ export function countRevisedAll(paperTotals: Record<string, number>): number {
     if (paperTotals[paperId] && Number(n) <= paperTotals[paperId]) count += 1;
   }
   return count;
+}
+
+export function toggleBookmark(paperId: string, n: number) {
+  ensureHydrated();
+  const ref = refOf(paperId, n);
+  const bookmarks = { ...state.bookmarks };
+  const dirty = new Set(state.sync.dirty);
+
+  if (bookmarks[ref]) {
+    delete bookmarks[ref];
+    dirty.add(`unbookmark:${ref}`);
+    dirty.delete(`bookmark:${ref}`);
+  } else {
+    bookmarks[ref] = { created_at: new Date().toISOString() };
+    dirty.add(`bookmark:${ref}`);
+    dirty.delete(`unbookmark:${ref}`);
+  }
+
+  commit({ ...state, bookmarks, sync: { ...state.sync, dirty: [...dirty] } });
+}
+
+export function saveNote(paperId: string, n: number, body: string) {
+  ensureHydrated();
+  const ref = refOf(paperId, n);
+  const trimmed = body.trim().slice(0, 2000);
+  const notes = { ...state.notes };
+
+  if (!trimmed) {
+    delete notes[ref];
+  } else {
+    notes[ref] = { body: trimmed, updated_at: new Date().toISOString() };
+  }
+
+  commit({
+    ...state,
+    notes,
+    sync: {
+      ...state.sync,
+      dirty: [...new Set([...state.sync.dirty, `note:${ref}`])],
+    },
+  });
+}
+
+export function addAttempt(attempt: Attempt) {
+  ensureHydrated();
+  commit({
+    ...state,
+    attempts: [...state.attempts, attempt],
+    sync: {
+      ...state.sync,
+      dirty: [...state.sync.dirty, `attempt:${state.attempts.length}`],
+    },
+  });
+}
+
+/** Latest Again/Hard/Good/Easy rating per question ref, newest attempt wins. */
+export function latestRatings(): Record<string, Rating> {
+  const out: Record<string, Rating> = {};
+  for (const attempt of getState().attempts) {
+    if (!attempt.ratings) continue;
+    for (const [n, rating] of Object.entries(attempt.ratings)) {
+      out[`${attempt.paper_id}:${n}`] = rating;
+    }
+  }
+  return out;
+}
+
+/** Replace local user state wholesale (used after server merge/pull). */
+export function replaceUserState(next: {
+  progress: StateV1["progress"];
+  bookmarks: StateV1["bookmarks"];
+  notes: StateV1["notes"];
+  attempts: Attempt[];
+}) {
+  ensureHydrated();
+  commit({ ...state, ...next, sync: { dirty: [], last_synced_at: new Date().toISOString() } });
+}
+
+export function markSynced() {
+  ensureHydrated();
+  commit({ ...state, sync: { dirty: [], last_synced_at: new Date().toISOString() } });
 }
 
 export function useStore(): StateV1 {

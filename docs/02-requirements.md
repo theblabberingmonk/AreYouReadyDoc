@@ -48,7 +48,9 @@ Priority: **P0** = launch blocker, **P1** = v1, **P2** = v1.1+.
   during the countdown.
 - The system shall allow ending the exam early, and shall auto-end at 0:00.
 - When an exam ends, the system shall enter self-review: each prompt beside its
-  model answer, with an optional self-score (0–10) per question.
+  model answer, with an optional self-rating per question — Again / Hard / Good /
+  Easy (labels, never numbers; see `docs/design/spaced-repetition-teaching-SKILL.md`).
+  Questions rated Again or Hard join the "Review again" queue.
 - When self-review is completed, the system shall record the attempt (paper,
   date, duration, optional scores) to the attempt history.
 - The system shall show past attempts per paper (date, optional total score).
