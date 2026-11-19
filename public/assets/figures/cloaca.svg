@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="360" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="360"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-360)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="360" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="332" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,664) scale(1,-1)">Cloaca: initial priorities before definitive mapping</text>
+			<rect x="175" y="245" width="310" height="55" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="185" y="280" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,560) scale(1,-1)">Recognise common outlet</text>
+			<text x="185" y="265" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,530) scale(1,-1)">Count and identify all openings</text>
+			<rect x="15" y="120" width="200" height="70" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="25" y="170" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,340) scale(1,-1)">Urinary drainage</text>
+			<text x="25" y="155" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,310) scale(1,-1)">Assess renal function</text>
+			<rect x="230" y="120" width="200" height="70" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="240" y="170" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,340) scale(1,-1)">Drain hydrocolpos</text>
+			<text x="240" y="155" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,310) scale(1,-1)">Relieve ureteral compression</text>
+			<rect x="445" y="120" width="200" height="70" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="455" y="170" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,340) scale(1,-1)">Faecal diversion if needed</text>
+			<text x="455" y="155" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,310) scale(1,-1)">Treat sepsis / obstruction</text>
+			<rect x="175" y="20" width="310" height="55" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="185" y="55" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,110) scale(1,-1)">Endoscopy + cloacagram / MRI</text>
+			<text x="185" y="40" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,80) scale(1,-1)">Plan function-preserving reconstruction</text>
+			<path d="M 330,245 L 115,190 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 115,190 L 123.721198,187.777228 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 115,190 L 121.582481,196.137666 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,245 L 330,190 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,190 L 334.31483,197.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,190 L 325.68517,197.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,245 L 545,190 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 545,190 L 538.417519,196.137666 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 545,190 L 536.278802,187.777228 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 115,120 L 330,75 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,75 L 323.153223,80.841374 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,75 L 321.385324,72.394744 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,120 L 330,75 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,75 L 334.31483,82.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,75 L 325.68517,82.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 545,120 L 330,75 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,75 L 338.614676,72.394744 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,75 L 336.846777,80.841374 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+		</g>
+	</g>
+</svg>

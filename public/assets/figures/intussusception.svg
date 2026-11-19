@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="290" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 290" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="290"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-290)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="290" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="262" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,524) scale(1,-1)">Intussusception: nested bowel and dragged mesentery</text>
+			<rect x="95" y="95" width="475" height="115" rx="30" ry="30" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 3; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<rect x="100" y="125" width="305" height="55" rx="20" ry="20" style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 3; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<path d="M 30,152 L 160,152 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 160,152 L 152.101757,156.31483 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 160,152 L 152.101757,147.68517 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="215" y="220" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,440) scale(1,-1)">Intussuscipiens (receiving bowel)</text>
+			<text x="170" y="140" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,280) scale(1,-1)">Intussusceptum (entering / returning layers)</text>
+			<path d="M 470,35 L 350,120 Z" style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 350,120 L 353.951113,111.913672 Z" style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 350,120 L 358.939206,118.955685 Z" style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="340" y="20" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,40) scale(1,-1)">Mesentery drawn into the invagination</text>
+		</g>
+	</g>
+</svg>

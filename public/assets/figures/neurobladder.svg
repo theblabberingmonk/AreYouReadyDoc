@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="360" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="360"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-360)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="360" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="332" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,664) scale(1,-1)">Neurogenic bladder: physiology-directed care</text>
+			<rect x="175" y="250" width="310" height="55" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="185" y="285" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,570) scale(1,-1)">Diary, ultrasound, renal function</text>
+			<text x="185" y="270" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,540) scale(1,-1)">Urodynamics when indicated</text>
+			<rect x="20" y="120" width="290" height="75" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="30" y="175" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,350) scale(1,-1)">Unsafe storage / poor compliance</text>
+			<text x="30" y="160" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,320) scale(1,-1)">Antimuscarinic; selected Botox</text>
+			<text x="30" y="145" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,290) scale(1,-1)">Reassess pressure + upper tracts</text>
+			<rect x="350" y="120" width="290" height="75" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="360" y="175" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,350) scale(1,-1)">Incomplete emptying / residual</text>
+			<text x="360" y="160" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,320) scale(1,-1)">CIC; selected overnight drainage</text>
+			<text x="360" y="145" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,290) scale(1,-1)">Treat bowel dysfunction</text>
+			<rect x="175" y="20" width="310" height="55" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="185" y="55" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,110) scale(1,-1)">Refractory unsafe bladder -&gt; reconstruction</text>
+			<text x="185" y="40" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,80) scale(1,-1)">Preserve kidneys, then achieve continence</text>
+			<path d="M 330,250 L 165,195 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 165,195 L 173.8574,193.404237 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 165,195 L 171.128462,201.591051 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,250 L 495,195 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 495,195 L 488.871538,201.591051 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 495,195 L 486.1426,193.404237 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 165,120 L 330,75 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,75 L 323.515368,81.240957 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,75 L 321.244754,72.915373 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 495,120 L 330,75 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,75 L 338.755246,72.915373 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,75 L 336.484632,81.240957 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+		</g>
+	</g>
+</svg>

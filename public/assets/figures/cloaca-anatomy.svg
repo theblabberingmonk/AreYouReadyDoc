@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="340" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="340"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-340)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="340" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="312" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,624) scale(1,-1)">Persistent cloaca: three systems, one common channel</text>
+			<rect x="55" y="220" width="145" height="60" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="65" y="260" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,520) scale(1,-1)">Urinary tract</text>
+			<path d="M 127,220 L 330,115 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 5;"/>
+			<rect x="260" y="220" width="145" height="60" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="270" y="260" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,520) scale(1,-1)">Vagina</text>
+			<path d="M 332,220 L 330,115 Z" style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 5;"/>
+			<rect x="465" y="220" width="145" height="60" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="475" y="260" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,520) scale(1,-1)">Rectum</text>
+			<path d="M 537,220 L 330,115 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 5;"/>
+			<path d="M 330,115 L 330,55 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 10;"/>
+			<text x="355" y="78" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,156) scale(1,-1)">Common channel</text>
+			<text x="270" y="27" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,54) scale(1,-1)">Single external opening</text>
+			<text x="20" y="180" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,360) scale(1,-1)">Assess urethral length, channel length and vaginal compartments before reconstruction.</text>
+		</g>
+	</g>
+</svg>

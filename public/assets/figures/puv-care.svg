@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="360" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="360"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-360)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="360" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="332" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,664) scale(1,-1)">PUV: drainage, reassessment and lifelong protection</text>
+			<rect x="180" y="250" width="300" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="190" y="280" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,560) scale(1,-1)">Suspected male outlet obstruction</text>
+			<rect x="20" y="145" width="280" height="60" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="30" y="185" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,370) scale(1,-1)">Drain bladder + stabilize</text>
+			<text x="30" y="170" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,340) scale(1,-1)">Culture, chemistry, ultrasound/VCUG</text>
+			<rect x="360" y="145" width="280" height="60" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="370" y="185" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,370) scale(1,-1)">Assess respiratory/perfusion risk</text>
+			<text x="370" y="170" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,340) scale(1,-1)">Watch post-obstructive diuresis</text>
+			<rect x="180" y="40" width="300" height="60" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="190" y="80" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,160) scale(1,-1)">Ablate when feasible; selected diversion</text>
+			<text x="190" y="65" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,130) scale(1,-1)">Follow kidneys AND bladder</text>
+			<path d="M 330,250 L 160,205 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 160,205 L 168.739406,202.849933 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 160,205 L 166.53114,211.19227 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,250 L 500,205 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 500,205 L 493.46886,211.19227 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 500,205 L 491.260594,202.849933 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 160,145 L 330,100 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,100 L 323.46886,106.19227 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,100 L 321.260594,97.849933 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 500,145 L 330,100 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,100 L 338.739406,97.849933 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 330,100 L 336.53114,106.19227 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+		</g>
+	</g>
+</svg>

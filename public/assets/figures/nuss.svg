@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="330" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 330" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="330"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-330)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="330" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="302" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,604) scale(1,-1)">Pectus excavatum and the Nuss concept: chest cross-section</text>
+			<text x="82" y="280" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,560) scale(1,-1)">Before correction</text>
+			<path d="M 25 130 C 25 240 105 250 165 190 C 225 250 300 240 300 130 C 270 80 55 80 25 130 " style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 3; fill: none; fill-rule: evenodd;"/>
+			<text x="90" y="58" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,116) scale(1,-1)">Depressed sternum</text>
+			<text x="407" y="280" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,560) scale(1,-1)">After bar rotation</text>
+			<path d="M 350 130 C 350 240 430 250 490 255 C 550 250 625 240 625 130 C 595 80 380 80 350 130 " style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 3; fill: none; fill-rule: evenodd;"/>
+			<path d="M 365 160 C 445 255 540 255 615 160 " style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 5; fill: none; fill-rule: evenodd;"/>
+			<text x="413" y="58" style="font-family: Helvetica; font-size: 11px;fill: rgb(83%,40%,26%); stroke:none;" transform="translate(0,116) scale(1,-1)">Bar supports sternum</text>
+			<text x="20" y="23" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,46) scale(1,-1)">Not an operative tunnelling map. Thoracoscopic visualisation and safe mediastinal passage are essential.</text>
+		</g>
+	</g>
+</svg>

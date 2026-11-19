@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="530" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 530" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="530"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-530)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="530" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="502" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,1004) scale(1,-1)">Steroid biosynthesis: major adrenal and androgen pathways</text>
+			<rect x="15" y="425" width="140" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="25" y="455" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,910) scale(1,-1)">Cholesterol</text>
+			<rect x="15" y="330" width="140" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="25" y="360" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,720) scale(1,-1)">Pregnenolone</text>
+			<rect x="180" y="330" width="140" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="190" y="360" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,720) scale(1,-1)">Progesterone</text>
+			<rect x="505" y="330" width="140" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="515" y="360" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,720) scale(1,-1)">Deoxycorticosterone</text>
+			<rect x="15" y="225" width="140" height="55" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="25" y="260" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,520) scale(1,-1)">17-OH pregnenolone</text>
+			<rect x="180" y="225" width="140" height="55" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="190" y="260" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,520) scale(1,-1)">17-OH progesterone</text>
+			<rect x="345" y="225" width="140" height="55" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="355" y="260" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,520) scale(1,-1)">11-Deoxycortisol</text>
+			<rect x="505" y="225" width="140" height="55" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="515" y="260" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,520) scale(1,-1)">Corticosterone</text>
+			<rect x="15" y="120" width="140" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="25" y="150" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,300) scale(1,-1)">DHEA</text>
+			<rect x="180" y="120" width="140" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="190" y="150" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,300) scale(1,-1)">Androstenedione</text>
+			<rect x="345" y="120" width="140" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="355" y="150" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,300) scale(1,-1)">Cortisol</text>
+			<rect x="505" y="120" width="140" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="515" y="150" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,300) scale(1,-1)">Aldosterone</text>
+			<rect x="180" y="25" width="140" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="190" y="55" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,110) scale(1,-1)">Testosterone</text>
+			<rect x="345" y="25" width="140" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="355" y="55" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,110) scale(1,-1)">DHT</text>
+			<path d="M 85,425 L 85,380 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 85,380 L 89.31483,387.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 85,380 L 80.68517,387.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 85,330 L 85,280 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 85,280 L 89.31483,287.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 85,280 L 80.68517,287.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 250,330 L 250,280 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 250,280 L 254.31483,287.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 250,280 L 245.68517,287.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 85,225 L 85,170 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 85,170 L 89.31483,177.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 85,170 L 80.68517,177.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 575,330 L 575,280 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 575,280 L 579.31483,287.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 575,280 L 570.68517,287.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 415,225 L 415,170 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 415,170 L 419.31483,177.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 415,170 L 410.68517,177.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 575,225 L 575,170 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 575,170 L 579.31483,177.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 575,170 L 570.68517,177.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 250,120 L 250,75 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 250,75 L 254.31483,82.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 250,75 L 245.68517,82.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 155,355 L 180,355 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 180,355 L 172.101757,359.31483 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 180,355 L 172.101757,350.68517 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 320,355 L 505,355 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 505,355 L 497.101757,359.31483 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 505,355 L 497.101757,350.68517 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 155,252.5 L 180,252.5 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 180,252.5 L 172.101757,256.81483 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 180,252.5 L 172.101757,248.18517 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 320,252.5 L 345,252.5 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 345,252.5 L 337.101757,256.81483 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 345,252.5 L 337.101757,248.18517 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 155,145 L 180,145 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 180,145 L 172.101757,149.31483 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 180,145 L 172.101757,140.68517 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 320,50 L 345,50 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 345,50 L 337.101757,54.31483 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 345,50 L 337.101757,45.68517 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="365" y="372" style="font-family: Helvetica; font-size: 10px;fill: rgb(83%,40%,26%); stroke:none;" transform="translate(0,744) scale(1,-1)">21-hydroxylase</text>
+			<text x="323" y="294" style="font-family: Helvetica; font-size: 10px;fill: rgb(83%,40%,26%); stroke:none;" transform="translate(0,588) scale(1,-1)">21-hydroxylase</text>
+			<text x="423" y="195" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,390) scale(1,-1)">11-beta hydroxylase</text>
+			<text x="515" y="200" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,400) scale(1,-1)">Aldosterone</text>
+			<text x="515" y="188" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,376) scale(1,-1)">synthase</text>
+			<text x="515" y="306" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,612) scale(1,-1)">11-beta</text>
+			<text x="345" y="90" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,180) scale(1,-1)">5-alpha reductase</text>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="330" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 330" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="330"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-330)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="330" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="302" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,604) scale(1,-1)">EA / TEF: simplified Gross types (trachea left; oesophagus right)</text>
+			<text x="53" y="270" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,540) scale(1,-1)">Type A</text>
+			<path d="M 48,100 L 48,240 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 7;"/>
+			<path d="M 88,200 L 88,240 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 7;"/>
+			<path d="M 88,100 L 88,160 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 7;"/>
+			<ellipse cx="88.0" cy="200.0" rx="5.0" ry="3.0" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,18%,25%); fill-rule: evenodd;"/>
+			<ellipse cx="88.0" cy="160.0" rx="5.0" ry="3.0" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,18%,25%); fill-rule: evenodd;"/>
+			<text x="28" y="65" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,130) scale(1,-1)">No fistula</text>
+			<text x="180" y="270" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,540) scale(1,-1)">Type B</text>
+			<path d="M 175,100 L 175,240 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 7;"/>
+			<path d="M 215,200 L 215,240 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 7;"/>
+			<path d="M 215,100 L 215,160 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 7;"/>
+			<ellipse cx="215.0" cy="200.0" rx="5.0" ry="3.0" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,18%,25%); fill-rule: evenodd;"/>
+			<ellipse cx="215.0" cy="160.0" rx="5.0" ry="3.0" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,18%,25%); fill-rule: evenodd;"/>
+			<path d="M 175,215 L 215,205 Z" style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 5;"/>
+			<text x="155" y="65" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,130) scale(1,-1)">Proximal TEF</text>
+			<text x="307" y="270" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,540) scale(1,-1)">Type C</text>
+			<path d="M 302,100 L 302,240 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 7;"/>
+			<path d="M 342,200 L 342,240 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 7;"/>
+			<path d="M 342,100 L 342,160 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 7;"/>
+			<ellipse cx="342.0" cy="200.0" rx="5.0" ry="3.0" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,18%,25%); fill-rule: evenodd;"/>
+			<ellipse cx="342.0" cy="160.0" rx="5.0" ry="3.0" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,18%,25%); fill-rule: evenodd;"/>
+			<path d="M 302,185 L 342,155 Z" style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 5;"/>
+			<text x="282" y="65" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,130) scale(1,-1)">Distal TEF</text>
+			<text x="434" y="270" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,540) scale(1,-1)">Type D</text>
+			<path d="M 429,100 L 429,240 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 7;"/>
+			<path d="M 469,200 L 469,240 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 7;"/>
+			<path d="M 469,100 L 469,160 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 7;"/>
+			<ellipse cx="469.0" cy="200.0" rx="5.0" ry="3.0" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,18%,25%); fill-rule: evenodd;"/>
+			<ellipse cx="469.0" cy="160.0" rx="5.0" ry="3.0" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1; fill: rgb(9%,18%,25%); fill-rule: evenodd;"/>
+			<path d="M 429,215 L 469,205 Z" style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 5;"/>
+			<path d="M 429,185 L 469,155 Z" style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 5;"/>
+			<text x="409" y="65" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,130) scale(1,-1)">Both TEFs</text>
+			<text x="561" y="270" style="font-family: Helvetica; font-size: 12px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,540) scale(1,-1)">Type E</text>
+			<path d="M 556,100 L 556,240 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 7;"/>
+			<path d="M 596,100 L 596,240 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 7;"/>
+			<path d="M 556,170 L 596,185 Z" style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 5;"/>
+			<text x="536" y="65" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,130) scale(1,-1)">H-type TEF</text>
+			<text x="20" y="25" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,50) scale(1,-1)">Illustrative connections only; not to scale. Type C is the commonest variant.</text>
+		</g>
+	</g>
+</svg>

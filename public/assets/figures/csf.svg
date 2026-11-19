@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="360" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 360" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="360"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-360)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="360" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="332" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,664) scale(1,-1)">CSF circulation and obstructive hydrocephalus</text>
+			<rect x="30" y="245" width="180" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="40" y="275" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,550) scale(1,-1)">Lateral ventricles</text>
+			<rect x="240" y="245" width="180" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="250" y="275" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,550) scale(1,-1)">Third ventricle</text>
+			<rect x="450" y="245" width="180" height="50" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="460" y="275" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,550) scale(1,-1)">Fourth ventricle</text>
+			<rect x="450" y="100" width="180" height="60" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="460" y="140" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,280) scale(1,-1)">Basal cisterns</text>
+			<text x="460" y="125" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,250) scale(1,-1)">Subarachnoid spaces</text>
+			<rect x="240" y="100" width="180" height="60" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="250" y="140" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,280) scale(1,-1)">Venous/lymphatic</text>
+			<text x="250" y="125" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,250) scale(1,-1)">clearance</text>
+			<path d="M 210,270 L 240,270 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 240,270 L 232.101757,274.31483 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 240,270 L 232.101757,265.68517 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="200" y="306" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,612) scale(1,-1)">Monro</text>
+			<path d="M 420,270 L 450,270 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 450,270 L 442.101757,274.31483 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 450,270 L 442.101757,265.68517 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="410" y="306" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,612) scale(1,-1)">Aqueduct</text>
+			<path d="M 540,245 L 540,160 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 540,160 L 544.31483,167.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 540,160 L 535.68517,167.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="545" y="200" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,400) scale(1,-1)">Magendie/Luschka</text>
+			<path d="M 450,130 L 420,130 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 420,130 L 427.898243,125.68517 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 420,130 L 427.898243,134.31483 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+		</g>
+	</g>
+</svg>

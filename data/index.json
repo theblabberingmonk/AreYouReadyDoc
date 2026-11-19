@@ -1,0 +1,1026 @@
+{
+ "papers": [
+  {
+   "id": "01",
+   "session": "2020-06",
+   "track": "Part 1",
+   "paper": "Paper 2",
+   "title": "2020-06 · Part 1 · Paper 2",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Vascular access, chemo-port and parenteral/enteral nutrition",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Ventilation, ECMO and neonatal surgical intensive care",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Upper gastrointestinal bleeding in children",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Omphalocele, gastroschisis, umbilical defects and complex associations",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Choledochal cyst and bilirubin metabolism",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Caustic ingestion, stricture and endoscopy",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Neonatal obstruction and meconium ileus",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "02",
+   "session": "2020-06",
+   "track": "Part 2 Final",
+   "paper": "Paper 2",
+   "title": "2020-06 · Part 2 Final · Paper 2",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Neural-tube defects, tethered cord and the MOMS trial",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Achalasia cardia",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Anorectal malformations, pouch colon and postoperative continence",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Neonatal obstruction and meconium ileus",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Chest-wall deformities and pectus repair",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Caustic ingestion, stricture and endoscopy",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "03",
+   "session": "2020-06",
+   "track": "Part 2 Final",
+   "paper": "Paper 3",
+   "title": "2020-06 · Part 2 Final · Paper 3",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Renal scintigraphy, diuretic renography and L,L-EC",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Bladder innervation, urodynamics and neurogenic bladder",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Portal hypertension, EHPVO, shunts and Budd-Chiari",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Fetal circulation, screening, fetal surgery and EXIT",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Bladder innervation, urodynamics and neurogenic bladder",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Bladder augmentation and continent urinary reconstruction",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Lung development, CPAM, sequestration and lobar resection",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "04",
+   "session": "2020-12",
+   "track": "Part 1",
+   "paper": "Paper 2",
+   "title": "2020-12 · Part 1 · Paper 2",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Choledochal cyst and bilirubin metabolism",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Germ-cell tumours, sacrococcygeal teratoma and testis preservation",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Neonatal obstruction and meconium ileus",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Antenatal hydronephrosis, UPJ obstruction and biomarkers",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Necrotising enterocolitis",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Ventilation, ECMO and neonatal surgical intensive care",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Neonatal thermoregulation, stress response and transport",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Branchial anomalies, thyroglossal tract and cervical lymphadenopathy",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "05",
+   "session": "2020-12",
+   "track": "Part 2 Final",
+   "paper": "Paper 1",
+   "title": "2020-12 · Part 2 Final · Paper 1",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "PET, molecular imaging, ultrasound and image-guided intervention",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Neuroblastoma: biology, INSS, INRGSS and stage MS",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Paediatric trauma, FAST, solid-organ injury and emergency airway",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Trauma scores, SCIWORA, burns and compartment syndromes",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Trauma scores, SCIWORA, burns and compartment syndromes",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Intestinal failure, nutrition and transplantation",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Germ-cell tumours, sacrococcygeal teratoma and testis preservation",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Research designs, statistics, bias and publication metrics",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Neonatal sepsis, legacy SIRS and MODS",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Vascular access, chemo-port and parenteral/enteral nutrition",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "06",
+   "session": "2020-12",
+   "track": "Part 2 Final",
+   "paper": "Paper 2",
+   "title": "2020-12 · Part 2 Final · Paper 2",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Lung development, CPAM, sequestration and lobar resection",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Appendicitis and intussusception",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Intestinal, colonic and pyloric atresia",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Pharyngeal arches: exam table of nerves, muscles and arteries",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Intestinal, colonic and pyloric atresia",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Omphalocele, gastroschisis, umbilical defects and complex associations",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Persistent cloaca, hydrocolpos and genital obstruction",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Chest-wall deformities and pectus repair",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "07",
+   "session": "2020-12",
+   "track": "Part 2 Final",
+   "paper": "Paper 3",
+   "title": "2020-12 · Part 2 Final · Paper 3",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Vascular tumours, malformations and Kasabach-Merritt phenomenon",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Hypospadias, curvature and graft urethroplasty",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Conjoined and heteropagus twins",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Neural-tube defects, tethered cord and the MOMS trial",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Bladder augmentation and continent urinary reconstruction",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "VUR, UTIs and ureteric reimplantation",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Testicular descent, impalpable testis and orchidopexy",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "08",
+   "session": "2021-10",
+   "track": "DrNB",
+   "paper": "Paper 2",
+   "title": "2021-10 · DrNB · Paper 2",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Intestinal failure, nutrition and transplantation",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Intestinal rotation, malrotation and midgut volvulus",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Empyema, chylothorax, mediastinal masses and lung hydatid",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Caustic ingestion, stricture and endoscopy",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Branchial anomalies, thyroglossal tract and cervical lymphadenopathy",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Alimentary duplications, Meckel diverticulum and mesenteric lesions",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "09",
+   "session": "2021-10",
+   "track": "DrNB",
+   "paper": "Paper 3",
+   "title": "2021-10 · DrNB · Paper 3",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Establishing and using a neonatal surgical intensive-care unit",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "VUR, UTIs and ureteric reimplantation",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Hypospadias, curvature and graft urethroplasty",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Bladder augmentation and continent urinary reconstruction",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Vascular tumours, malformations and Kasabach-Merritt phenomenon",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Neuroblastoma: biology, INSS, INRGSS and stage MS",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Renal scintigraphy, diuretic renography and L,L-EC",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Childhood obesity and adolescent metabolic surgery",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "10",
+   "session": "2022-06",
+   "track": "DrNB",
+   "paper": "Paper 1",
+   "title": "2022-06 · DrNB · Paper 1",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Lung development and antenatally diagnosed CPAM",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Chemotherapy: mechanisms, toxicities and febrile neutropenia",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Paediatric GCS, Paediatric Trauma Score and ISS",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Childhood germ-cell tumours: origin, pathology and markers",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Paediatric renal transplantation",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Neonatal shock: recognition and management",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Bladder innervation and neurogenic bladder pharmacotherapy",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Levels of evidence, randomized trials and cohort studies",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Pyloric stenosis: biochemical disturbance and optimization",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "PET, surgical lasers and 3D reconstruction",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "11",
+   "session": "2022-06",
+   "track": "DrNB",
+   "paper": "Paper 2",
+   "title": "2022-06 · DrNB · Paper 2",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Omphalocele, gastroschisis, umbilical defects and complex associations",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Neonatal obstruction and meconium ileus",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Neural-tube defects, tethered cord and the MOMS trial",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Hepatoblastoma, HCC, mesenchymal hamartoma and liver anatomy",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "CSF circulation, hydrocephalus and shunt complications",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Anorectal malformations, pouch colon and postoperative continence",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Chest-wall deformities and pectus repair",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "12",
+   "session": "2022-06",
+   "track": "DrNB",
+   "paper": "Paper 3",
+   "title": "2022-06 · DrNB · Paper 3",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Portal hypertension, EHPVO, shunts and Budd-Chiari",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Anorectal malformations, pouch colon and postoperative continence",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Persistent cloaca, hydrocolpos and genital obstruction",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Sexual differentiation, CAH and multidisciplinary DSD assessment",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Rhabdomyosarcoma, paratesticular and bladder disease",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Anorectal malformations, pouch colon and postoperative continence",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Wilms tumour: staging, risk and nephron-sparing surgery",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "13",
+   "session": "2022-12",
+   "track": "Direct 6 Years Part 1",
+   "paper": "Paper 2",
+   "title": "2022-12 · Direct 6 Years Part 1 · Paper 2",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Testicular descent, impalpable testis and orchidopexy",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Lung development, CPAM, sequestration and lobar resection",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Enteric neuromuscular disorders, appendix reconstruction and manometry",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "14",
+   "session": "2022-12",
+   "track": "DrNB",
+   "paper": "Paper 1",
+   "title": "2022-12 · DrNB · Paper 1",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Neuroblastoma: biology, INSS, INRGSS and stage MS",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Paediatric kidney/liver transplantation and immunosuppression",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Research designs, statistics, bias and publication metrics",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Paediatric trauma, FAST, solid-organ injury and emergency airway",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Fetal circulation, screening, fetal surgery and EXIT",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "15",
+   "session": "2022-12",
+   "track": "DrNB",
+   "paper": "Paper 2",
+   "title": "2022-12 · DrNB · Paper 2",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Intestinal, colonic and pyloric atresia",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Anorectal malformations, pouch colon and postoperative continence",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Lung development, CPAM, sequestration and lobar resection",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Pharyngeal arches: exam table of nerves, muscles and arteries",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Branchial anomalies, thyroglossal tract and cervical lymphadenopathy",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Intestinal rotation, malrotation and midgut volvulus",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Necrotising enterocolitis",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "16",
+   "session": "2022-12",
+   "track": "DrNB",
+   "paper": "Paper 3",
+   "title": "2022-12 · DrNB · Paper 3",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Bladder exstrophy, epispadias and prune-belly syndrome",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Hypospadias, curvature and graft urethroplasty",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Bladder innervation, urodynamics and neurogenic bladder",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "VUR, UTIs and ureteric reimplantation",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Renal scintigraphy, diuretic renography and L,L-EC",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "CSF circulation, hydrocephalus and shunt complications",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Vascular tumours, malformations and Kasabach-Merritt phenomenon",
+     "marks": ""
+    }
+   ]
+  },
+  {
+   "id": "17",
+   "session": "2023-04",
+   "track": "DrNB",
+   "paper": "Paper 1",
+   "title": "2023-04 · DrNB · Paper 1",
+   "count": 10,
+   "questions": [
+    {
+     "n": 1,
+     "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+     "marks": ""
+    },
+    {
+     "n": 2,
+     "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+     "marks": ""
+    },
+    {
+     "n": 3,
+     "title": "Neonatal thermoregulation, stress response and transport",
+     "marks": ""
+    },
+    {
+     "n": 4,
+     "title": "Paediatric trauma, FAST, solid-organ injury and emergency airway",
+     "marks": ""
+    },
+    {
+     "n": 5,
+     "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+     "marks": ""
+    },
+    {
+     "n": 6,
+     "title": "Wilms tumour: staging, risk and nephron-sparing surgery",
+     "marks": ""
+    },
+    {
+     "n": 7,
+     "title": "Paediatric kidney/liver transplantation and immunosuppression",
+     "marks": ""
+    },
+    {
+     "n": 8,
+     "title": "Rhabdomyosarcoma, paratesticular and bladder disease",
+     "marks": ""
+    },
+    {
+     "n": 9,
+     "title": "Research designs, statistics, bias and publication metrics",
+     "marks": ""
+    },
+    {
+     "n": 10,
+     "title": "Fetal circulation, screening, fetal surgery and EXIT",
+     "marks": ""
+    }
+   ]
+  }
+ ],
+ "total_questions": 170,
+ "updated": "v1-17-papers"
+}

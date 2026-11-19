@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="340" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="340"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-340)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="340" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="312" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,624) scale(1,-1)">Complete duplex: Weigert-Meyer relationship</text>
+			<ellipse cx="135.0" cy="185.0" rx="65.0" ry="100.0" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<path d="M 80,185 L 190,185 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1;"/>
+			<text x="88" y="230" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,460) scale(1,-1)">Upper moiety</text>
+			<text x="88" y="140" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,280) scale(1,-1)">Lower moiety</text>
+			<rect x="445" y="95" width="175" height="130" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="455" y="205" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,410) scale(1,-1)">Bladder</text>
+			<text x="462" y="180" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,360) scale(1,-1)">Superolateral orifice</text>
+			<text x="462" y="130" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,260) scale(1,-1)">Inferomedial orifice</text>
+			<path d="M 180 230 C 340 275 285 90 455 130 " style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 3; fill: none; fill-rule: evenodd;"/>
+			<path d="M 180 145 C 320 75 335 220 455 180 " style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 3; fill: none; fill-rule: evenodd;"/>
+			<text x="230" y="260" style="font-family: Helvetica; font-size: 10px;fill: rgb(83%,40%,26%); stroke:none;" transform="translate(0,520) scale(1,-1)">Upper: ectopia / ureterocele / obstruction</text>
+			<text x="210" y="65" style="font-family: Helvetica; font-size: 11px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,130) scale(1,-1)">Lower: reflux tendency</text>
+			<text x="20" y="25" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,50) scale(1,-1)">Rule has exceptions. Continuous leakage in girls suggests an outlet below the external sphincter.</text>
+		</g>
+	</g>
+</svg>

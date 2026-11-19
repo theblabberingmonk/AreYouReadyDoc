@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="330" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 330" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="330"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-330)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="330" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="302" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,604) scale(1,-1)">Diuretic renography: illustrative time-activity curves</text>
+			<path d="M 60,65 L 60,260 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 60,260 L 55.68517,252.101757 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 60,260 L 64.31483,252.101757 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 60,65 L 605,65 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 605,65 L 597.101757,69.31483 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 605,65 L 597.101757,60.68517 Z" style="stroke: rgb(9%,18%,25%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="15" y="275" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,550) scale(1,-1)">Activity</text>
+			<text x="570" y="40" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,80) scale(1,-1)">Time</text>
+			<path d="M 285,65 L 285,245 Z" style="stroke: rgb(60%,60%,60%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 4, 3;"/>
+			<text x="255" y="270" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,540) scale(1,-1)">Diuretic</text>
+			<path d="M 60 65 C 110 235 155 225 200 200 C 270 165 340 95 570 78 " style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 3; fill: none; fill-rule: evenodd;"/>
+			<text x="360" y="90" style="font-family: Helvetica; font-size: 11px;fill: rgb(3%,49%,54%); stroke:none;" transform="translate(0,180) scale(1,-1)">Prompt drainage</text>
+			<path d="M 60 65 C 110 225 200 225 285 215 C 360 210 470 210 570 220 " style="stroke: rgb(83%,40%,26%); stroke-linecap: butt; stroke-width: 3; fill: none; fill-rule: evenodd;"/>
+			<text x="390" y="240" style="font-family: Helvetica; font-size: 11px;fill: rgb(83%,40%,26%); stroke:none;" transform="translate(0,480) scale(1,-1)">Persistent activity</text>
+			<text x="20" y="20" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,40) scale(1,-1)">Slow drainage is not proof of obstruction: consider hydration, bladder fullness, renal function and reservoir size.</text>
+		</g>
+	</g>
+</svg>

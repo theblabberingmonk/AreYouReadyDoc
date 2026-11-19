@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="660" height="320" preserveAspectRatio="xMinYMin meet" viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="660" height="320"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-320)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="660" height="320" style="stroke: rgb(79%,86%,88%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="20" y="292" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,584) scale(1,-1)">Hirschsprung pull-throughs: conceptual differences</text>
+			<rect x="20" y="155" width="195" height="105" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="30" y="240" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,480) scale(1,-1)">Swenson</text>
+			<text x="30" y="225" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,450) scale(1,-1)">Resect aganglionic rectum</text>
+			<text x="30" y="210" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,420) scale(1,-1)">Low end-to-end anastomosis</text>
+			<path d="M 118,155 L 118,85 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 118,85 L 122.31483,92.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 118,85 L 113.68517,92.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="55" y="63" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,126) scale(1,-1)">Preserve sphincter / sensation</text>
+			<rect x="233" y="155" width="195" height="105" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="243" y="240" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,480) scale(1,-1)">Soave</text>
+			<text x="243" y="225" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,450) scale(1,-1)">Ganglionated bowel within</text>
+			<text x="243" y="210" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,420) scale(1,-1)">short retained muscular cuff</text>
+			<path d="M 331,155 L 331,85 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 331,85 L 335.31483,92.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 331,85 L 326.68517,92.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="268" y="63" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,126) scale(1,-1)">Preserve sphincter / sensation</text>
+			<rect x="446" y="155" width="195" height="105" rx="8" ry="8" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1; fill: rgb(90%,95%,96%); fill-rule: evenodd;"/>
+			<text x="456" y="240" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,480) scale(1,-1)">Duhamel</text>
+			<text x="456" y="225" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,450) scale(1,-1)">Retrorectal ganglionated limb</text>
+			<text x="456" y="210" style="font-family: Helvetica; font-size: 11px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,420) scale(1,-1)">joined to retained anterior rectum</text>
+			<path d="M 544,155 L 544,85 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 544,85 L 548.31483,92.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<path d="M 544,85 L 539.68517,92.898243 Z" style="stroke: rgb(3%,49%,54%); stroke-linecap: butt; stroke-width: 1.8;"/>
+			<text x="481" y="63" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,126) scale(1,-1)">Preserve sphincter / sensation</text>
+			<text x="20" y="22" style="font-family: Helvetica; font-size: 10px;fill: rgb(9%,18%,25%); stroke:none;" transform="translate(0,44) scale(1,-1)">Concept schematic. Confirm ganglionated margin; avoid transition zone, twist, tension and restrictive cuff.</text>
+		</g>
+	</g>
+</svg>
