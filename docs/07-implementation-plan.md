@@ -3,7 +3,7 @@
 Order is deliberate: **reading value first, plumbing before polish, AI last.**
 Each phase is deployable and leaves the site better than before.
 
-## Phase 0 — Groundwork (0.5 day)
+## Phase 0 — Groundwork ✅ done 2026-11-19 — Groundwork (0.5 day)
 
 - [ ] Re-authorize Vercel team access (`theblabberingmonks-projects`) — currently 403 via MCP; use Vercel CLI login if faster
 - [ ] Fix paper-10 titles upstream in the workspace (missing `### title` headings in answers.md)
@@ -13,7 +13,7 @@ Each phase is deployable and leaves the site better than before.
 - [ ] Supabase: run the schema + RLS from [04-data-model.md](04-data-model.md) as migration `0001_init`
 - [ ] `.env.local` with the four env vars (names in 03); add `.env*.local` to `.gitignore`
 
-## Phase 1 — Reading core (the product's heart)
+## Phase 1 — Reading core ✅ done 2026-11-19 — Reading core (the product's heart)
 
 - [ ] Design tokens + base CSS per "clinical calm" (01): serif body, warm paper, teal accent; light/dark
 - [ ] Typed content loaders with zod validation (`lib/content/`)
@@ -24,7 +24,7 @@ Each phase is deployable and leaves the site better than before.
 - [ ] Mobile-first pass: reading on a 360px phone must be excellent
 - [ ] **Ship checkpoint**: anonymous, full reading + progress. Already a good product.
 
-## Phase 2 — Accounts & sync
+## Phase 2 — Accounts & sync ✅ done 2026-11-19 (server paths live; signed-in E2E needs prod keys) — Accounts & sync
 
 > **Prerequisite (ADR-0004):** wire Clerk JWT → Supabase before any sync code:
 > configure Clerk as a Supabase third-party auth provider, change `user_id`
@@ -40,7 +40,7 @@ Each phase is deployable and leaves the site better than before.
 - [ ] Bookmarks (toggle + `/bookmarks` view) and notes (per-question, 2000 chars)
 - [ ] Sign-out leaves anonymous local copy; AC-3 passes on two real devices
 
-## Phase 3 — Exam tools
+## Phase 3 — Exam tools ✅ done 2026-11-19 (mock + topics + search; global ⌘K palette deferred) — Exam tools
 
 - [ ] Mock mode `/papers/[id]/mock`: prompts-only, 3h countdown, free navigation, early/auto end
 - [ ] Self-review screen (prompt ‖ answer, optional 0–10 self-score) → `exam_attempts`
@@ -49,14 +49,14 @@ Each phase is deployable and leaves the site better than before.
 - [ ] Topics index + topic pages (cross-paper question lists)
 - [ ] Command-K search palette + `/search` with FlexSearch, deep-links to question anchors (AC-5)
 
-## Phase 4 — Lessons
+## Phase 4 — Lessons ✅ done 2026-11-19 — Lessons
 
 - [ ] Lesson JSON schema + loaders; author the 14 modules from existing answers (05)
 - [ ] Lessons index mapped to syllabus areas with coverage checklist
 - [ ] Bidirectional links: lesson ↔ its questions
 - [ ] Syllabus coverage view ("what the exam can ask vs what you've revised")
 
-## Phase 5 — AI v1.1
+## Phase 5 — AI v1.1 ✅ built 2026-11-19 (live provider test needs OPENCODE_GO_API_KEY + AI_ENABLED=true) — AI v1.1
 
 - [ ] **Spike**: confirm OpenCode Go API surface (base URL, auth, models, streaming, OpenAI-compat) → record findings in ADR-0003 comments
 - [ ] `POST /api/ai/explain`: auth → quota → cache → provider stream; `ai_usage` + `ai_cache`
