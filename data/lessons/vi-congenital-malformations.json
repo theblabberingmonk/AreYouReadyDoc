@@ -1,0 +1,260 @@
+{
+ "slug": "vi-congenital-malformations",
+ "area": 6,
+ "title": "Congenital malformations",
+ "objectives": [
+  "Classify ARM, cloaca and Hirschsprung variants with the operation each demands.",
+  "State Todani classification and the operation for choledochal cyst.",
+  "Outline biliary atresia workup and Kasai timing with outcome predictors."
+ ],
+ "body_md": "### Why this area matters\n\nMalformations are the surgeon's home ground and the exam's backbone: ARM/cloaca, Hirschsprung, biliary atresia, choledochal cyst, malrotation, duplications, Meckel diverticulum. Classification systems are free marks — write every one you know, correctly.\n\n### Hindgut and midgut\n\nARM: high versus low by the puborectalis sling, with pouch colon as the Indian-exam favourite — single-stage versus staged pull-through, and continence as the lifelong metric. Persistent cloaca: common channel length decides complexity; hydrocolpos needs drainage now, reconstruction later, with multidisciplinary follow-up. Hirschsprung: transition zone, biopsy, pull-through choices, and the postoperative triad of obstruction, enterocolitis and soiling. Malrotation: bilious vomiting is volvulus until proven otherwise — upper GI contrast, then Ladd procedure without delay.\n\n### Hepatobiliary\n\nBiliary atresia: persistent pale stools and conjugated jaundice beyond two weeks, HIDA non-excretion, liver biopsy and intraoperative cholangiogram; Kasai portoenterostomy before 60 days changes the curve, with clearance of jaundice as the early predictor. Choledochal cyst: Todani I–V (type I and IVa dominate questions), complete excision with Roux-en-Y hepaticojejunostomy — never internal drainage alone — because of the malignancy risk. Bilirubin metabolism (conjugation, enterohepatic circulation) underpins both answers.\n\n### Duplications, Meckel, atresias\n\nAlimentary duplications share wall and blood supply with native bowel — excise without devascularising the host. Meckel: rule of twos, painless bleeding from ectopic gastric mucosa, technetium scan. Jejunoileal atresias: the Grosfeld-type spectrum and tapering enteroplasty versus resection choices.\n\n### How it is asked\n\nClassification → embryology one-liner → workup → operation → complications → follow-up. Draw the classification table first; it anchors the rest.",
+ "checklist": [
+  "Aetiology of congenital malformations",
+  "Anorectal malformations and cloaca",
+  "Hirschsprung disease",
+  "Biliary atresia and choledochal cyst",
+  "Intestinal atresias, duplications, Meckel",
+  "Malrotation and midgut volvulus"
+ ],
+ "count": 34,
+ "question_refs": [
+  {
+   "paper": "01",
+   "n": 5,
+   "title": "Upper gastrointestinal bleeding in children",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 7,
+   "title": "Choledochal cyst and bilirubin metabolism",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 9,
+   "title": "Caustic ingestion, stricture and endoscopy",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "02",
+   "n": 1,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 10,
+   "title": "Caustic ingestion, stricture and endoscopy",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 3,
+   "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 4,
+   "title": "Achalasia cardia",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 5,
+   "title": "Anorectal malformations, pouch colon and postoperative continence",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 4,
+   "title": "Portal hypertension, EHPVO, shunts and Budd-Chiari",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "04",
+   "n": 1,
+   "title": "Choledochal cyst and bilirubin metabolism",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "06",
+   "n": 10,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 2,
+   "title": "Appendicitis and intussusception",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 3,
+   "title": "Intestinal, colonic and pyloric atresia",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 5,
+   "title": "Intestinal, colonic and pyloric atresia",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "08",
+   "n": 10,
+   "title": "Alimentary duplications, Meckel diverticulum and mesenteric lesions",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 2,
+   "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 3,
+   "title": "Intestinal rotation, malrotation and midgut volvulus",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 6,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 7,
+   "title": "Caustic ingestion, stricture and endoscopy",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 9,
+   "title": "Pyloric stenosis: biochemical disturbance and optimization",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 5,
+   "title": "Hepatoblastoma, HCC, mesenchymal hamartoma and liver anatomy",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 8,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 9,
+   "title": "Anorectal malformations, pouch colon and postoperative continence",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 1,
+   "title": "Portal hypertension, EHPVO, shunts and Budd-Chiari",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 3,
+   "title": "Anorectal malformations, pouch colon and postoperative continence",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 9,
+   "title": "Anorectal malformations, pouch colon and postoperative continence",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "13",
+   "n": 10,
+   "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "13",
+   "n": 8,
+   "title": "Enteric neuromuscular disorders, appendix reconstruction and manometry",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "14",
+   "n": 4,
+   "title": "Paediatric kidney/liver transplantation and immunosuppression",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 1,
+   "title": "Intestinal, colonic and pyloric atresia",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 2,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 3,
+   "title": "Anorectal malformations, pouch colon and postoperative continence",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 9,
+   "title": "Intestinal rotation, malrotation and midgut volvulus",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 7,
+   "title": "Paediatric kidney/liver transplantation and immunosuppression",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  }
+ ]
+}

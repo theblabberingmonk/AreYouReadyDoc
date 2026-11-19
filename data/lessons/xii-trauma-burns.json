@@ -1,0 +1,64 @@
+{
+ "slug": "xii-trauma-burns",
+ "area": 12,
+ "title": "Trauma & burns",
+ "objectives": [
+  "Run the paediatric primary survey with weight-based doses and tube sizes.",
+  "Apply FAST, CT selective imaging and non-operative solid-organ protocols.",
+  "Calculate burns fluids and state escharotomy and referral triggers."
+ ],
+ "body_md": "### Why this area matters\n\nTrauma questions are ATLS in small bodies plus three paediatric twists: non-operative solid-organ management, SCIWORA, and burns resuscitation. Scores (PTS, ISS, paediatric GCS) are pure recall — memorise every component.\n\n### The paediatric primary survey\n\nAirway with cervical-spine protection first (children desaturate fast), breathing with age-appropriate rates, circulation with weight-based boluses and blood, disability by paediatric GCS (eye/verbal/motor adapted for preverbal children), exposure with warm chain. Tube sizes, IV gauges and drug doses by weight or Broselow thinking belong in the answer, not assumed.\n\n### Blunt trauma and scores\n\nFAST finds free fluid; stable children with solid-organ injury go non-operative with bed rest grading, transfusion thresholds and activity restriction timelines — operation for instability, hollow-viscus injury or pancreatic ductal injury. Paediatric Trauma Score triages, Injury Severity Score squares the three worst AIS regions, paediatric GCS quantifies coma: write components and ranges, not just expansions. SCIWORA reminds you that a normal X-ray never clears a child's cord injury clinically.\n\n### Burns and compartments\n\nDepth and TBSA (Lund-Browder, not adult rule-of-nines for small children) drive Parkland-style resuscitation with urine-output targets; inhalation injury, circumferential eschar and compartment syndrome force escharotomy/fasciotomy decisions. Referral criteria, tetanus, nutrition and staged grafting complete the answer.\n\n### How it is asked\n\nScenario → survey sequence → score calculation → disposition. Burns add a fluid-maths sub-part — show the formula, the numbers and the endpoints.",
+ "checklist": [
+  "Trauma in children including burns",
+  "Primary survey and resuscitation",
+  "FAST, solid-organ injury and non-operative care",
+  "Trauma scores, SCIWORA",
+  "Burns resuscitation and escharotomy",
+  "Compartment syndromes"
+ ],
+ "count": 6,
+ "question_refs": [
+  {
+   "paper": "05",
+   "n": 3,
+   "title": "Paediatric trauma, FAST, solid-organ injury and emergency airway",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "05",
+   "n": 4,
+   "title": "Trauma scores, SCIWORA, burns and compartment syndromes",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "05",
+   "n": 5,
+   "title": "Trauma scores, SCIWORA, burns and compartment syndromes",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "10",
+   "n": 3,
+   "title": "Paediatric GCS, Paediatric Trauma Score and ISS",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 7,
+   "title": "Paediatric trauma, FAST, solid-organ injury and emergency airway",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 4,
+   "title": "Paediatric trauma, FAST, solid-organ injury and emergency airway",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  }
+ ]
+}

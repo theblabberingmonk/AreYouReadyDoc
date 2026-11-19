@@ -1,0 +1,88 @@
+{
+ "lessons": [
+  {
+   "slug": "i-basic-sciences",
+   "area": 1,
+   "title": "Basic sciences as applied to paediatric surgery",
+   "count": 13
+  },
+  {
+   "slug": "ii-growth-development",
+   "area": 2,
+   "title": "Growth & development",
+   "count": 6
+  },
+  {
+   "slug": "iii-genetics-counselling",
+   "area": 3,
+   "title": "Genetics & parent counselling",
+   "count": 4
+  },
+  {
+   "slug": "iv-medical-conditions",
+   "area": 4,
+   "title": "Common paediatric medical conditions",
+   "count": 18
+  },
+  {
+   "slug": "v-neonatal-surgery",
+   "area": 5,
+   "title": "Neonatal surgery",
+   "count": 34
+  },
+  {
+   "slug": "vi-congenital-malformations",
+   "area": 6,
+   "title": "Congenital malformations",
+   "count": 34
+  },
+  {
+   "slug": "vii-sicu-transport",
+   "area": 7,
+   "title": "Intensive care, referral & transport",
+   "count": 17
+  },
+  {
+   "slug": "viii-investigations",
+   "area": 8,
+   "title": "Specialised investigations",
+   "count": 8
+  },
+  {
+   "slug": "ix-surgical-pathology",
+   "area": 9,
+   "title": "Surgical pathology of childhood",
+   "count": 2
+  },
+  {
+   "slug": "x-regional-surgery",
+   "area": 10,
+   "title": "Systemic & regional surgery",
+   "count": 86
+  },
+  {
+   "slug": "xi-operative-surgery",
+   "area": 11,
+   "title": "Paediatric operative surgery",
+   "count": 19
+  },
+  {
+   "slug": "xii-trauma-burns",
+   "area": 12,
+   "title": "Trauma & burns",
+   "count": 6
+  },
+  {
+   "slug": "xiii-oncology",
+   "area": 13,
+   "title": "Malignancy in childhood",
+   "count": 19
+  },
+  {
+   "slug": "xiv-research-ethics",
+   "area": 14,
+   "title": "Research, statistics & ethics",
+   "count": 4
+  }
+ ]
+}

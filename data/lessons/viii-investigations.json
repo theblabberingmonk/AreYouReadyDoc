@@ -1,0 +1,76 @@
+{
+ "slug": "viii-investigations",
+ "area": 8,
+ "title": "Specialised investigations",
+ "objectives": [
+  "Interpret diuretic renography curves (obstructed vs dilated-unobstructed vs normal).",
+  "State what urodynamics measures and the neurogenic bladder patterns that change management.",
+  "Choose the right image for the question: HIDA, contrast enema, MCU, DMSA/MAG3, PET."
+ ],
+ "body_md": "### Why this area matters\n\nInvestigations questions reward technique-plus-interpretation pairs. The examiner hands you a scenario and asks which study and what the curves mean — renography, urodynamics and contrast studies recur most.\n\n### Renal scintigraphy\n\nDMSA maps cortical scars and function split; MAG3/DTPA with diuretic (F+15/F-15) separates true UPJ obstruction (rising curve, poor washout, T½ prolonged) from a capacious unobstructed pelvis (washes with gravity/diuretic). State hydration, bladder drainage and the half-time cutoff in your answer. Antenatal hydronephrosis workup flows: postnatal ultrasound timing, MCU for VUR, then renography for function and drainage.\n\n### Urodynamics and contrast studies\n\nUrodynamics measures storage and emptying — compliance, capacity, detrusor overactivity, leak-point pressures, sphincter synergy. High-pressure, poorly compliant neurogenic bladders threaten upper tracts and drive augmentation decisions. Contrast enema shows transition zones (Hirschsprung), malrotation (abnormal DJ flexure, corkscrew duodenum) and meconium plug syndromes. MCU remains the VUR standard with grading that decides prophylaxis versus reimplantation.\n\n### Cross-sectional and nuclear advances\n\nPET and molecular imaging stage neuroblastoma and hunt occult relapse; image-guided intervention (drainage, biopsy, sclerotherapy) gets a sub-part wherever collections or vascular malformations appear. Ultrasound stays first-line in children for its lack of radiation — state ALARA thinking when justifying CT.\n\n### How it is asked\n\nIndication → technique essentials → interpretation patterns → how the result changes management. Always end with the management fork; a curve description without a decision scores half.",
+ "checklist": [
+  "Technique and interpretation of specialised studies",
+  "Renal scintigraphy and renography",
+  "Urodynamics",
+  "Contrast and cross-sectional imaging in children"
+ ],
+ "count": 8,
+ "question_refs": [
+  {
+   "paper": "03",
+   "n": 1,
+   "title": "Renal scintigraphy, diuretic renography and L,L-EC",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 3,
+   "title": "Bladder innervation, urodynamics and neurogenic bladder",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 6,
+   "title": "Bladder innervation, urodynamics and neurogenic bladder",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "05",
+   "n": 1,
+   "title": "PET, molecular imaging, ultrasound and image-guided intervention",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "09",
+   "n": 8,
+   "title": "Renal scintigraphy, diuretic renography and L,L-EC",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 10,
+   "title": "PET, surgical lasers and 3D reconstruction",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 4,
+   "title": "Bladder innervation, urodynamics and neurogenic bladder",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 7,
+   "title": "Renal scintigraphy, diuretic renography and L,L-EC",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  }
+ ]
+}

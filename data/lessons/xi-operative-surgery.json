@@ -1,0 +1,153 @@
+{
+ "slug": "xi-operative-surgery",
+ "area": 11,
+ "title": "Paediatric operative surgery",
+ "objectives": [
+  "State MIS port/energy principles that differ from adult laparoscopy.",
+  "Choose the energy device by tissue (vessel size, lateral spread, smoke).",
+  "List tissue-engineering and robotic applications actually in paediatric use."
+ ],
+ "body_md": "### Why this area matters\n\nA compact, high-scoring module: MIS, robotics, energy devices, tissue engineering and transplantation principles. Answers are short, factual and comparative — ideal revision-per-hour.\n\n### MIS in children\n\nSmaller working spaces demand lower insufflation pressures, shorter instruments and careful thermal spread; neonatal laparoscopy and thoracoscopy need experienced anaesthesia as part of the answer. Robotic paediatric surgery trades haptics for wristed precision in confined pelvises — state the real limits (size, cost, operative time) alongside the advantages. Single-incision and natural-orifice notes appear as “recent advances” sub-parts.\n\n### Energy, lasers, CUSA\n\nUltrasonic shears cut and coagulate with minimal lateral spread for mesenteric work; advanced bipolar seals named vessels to ~7 mm; monopsony risks (stray current, capacitive coupling) belong in every safety paragraph. Lasers ablate and photocoagulate vascular lesions with wavelength matched to chromophore. CUSA fragments high-water parenchyma while sparing vessels and ducts — the liver-resection sentence that scores.\n\n### Transplantation and engineering\n\nPaediatric renal transplantation: living-related timing, size-matched grafts, immunosuppression backbone (induction, CNI, antimetabolite, steroids with weaning) and rejection surveillance. Intestinal failure rehabilitation runs from STEP/Bianchi lengthening to transplantation for irreversible failure with line-loss or liver disease. Tissue engineering and gene/cell therapy answers stay honest: scaffolds and stem-cell adjuncts are emerging, standard operations remain standard.\n\n### How it is asked\n\nCompare-and-contrast tables (device versus device, open versus MIS), safety paragraphs, and “recent advances” closers. Numbers (seal sizes, pressures) show you have operated, not just read.",
+ "checklist": [
+  "Paediatric operative principles",
+  "Minimally invasive and robotic surgery",
+  "Surgical energy, lasers, CUSA",
+  "Transplantation and tissue engineering"
+ ],
+ "count": 19,
+ "question_refs": [
+  {
+   "paper": "02",
+   "n": 1,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 2,
+   "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 9,
+   "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 10,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 10,
+   "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 4,
+   "title": "Hypospadias, curvature and graft urethroplasty",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 5,
+   "title": "Conjoined and heteropagus twins",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "08",
+   "n": 6,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "09",
+   "n": 1,
+   "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "09",
+   "n": 10,
+   "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "09",
+   "n": 4,
+   "title": "Hypospadias, curvature and graft urethroplasty",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 10,
+   "title": "PET, surgical lasers and 3D reconstruction",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 8,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 5,
+   "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "13",
+   "n": 3,
+   "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "15",
+   "n": 2,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 3,
+   "title": "Hypospadias, curvature and graft urethroplasty",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 1,
+   "title": "Minimally invasive surgery, robotics, tissue engineering and gene/cell therapy",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 2,
+   "title": "Surgical energy, laser, ultrasonic devices and CUSA",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  }
+ ]
+}

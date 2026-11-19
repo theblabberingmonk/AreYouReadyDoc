@@ -1,0 +1,154 @@
+{
+ "slug": "xiii-oncology",
+ "area": 13,
+ "title": "Malignancy in childhood",
+ "objectives": [
+  "Stage neuroblastoma (INRGSS) and Wilms and state what shifts risk.",
+  "Write the Wilms and hepatoblastoma operative sequence including nephron-sparing calls.",
+  "List chemotherapy classes with mechanism plus signature toxicity each."
+ ],
+ "body_md": "### Why this area matters\n\nOncology is Paper 1 territory: neuroblastoma, Wilms, hepatoblastoma, germ-cell tumours, rhabdomyosarcoma, plus the chemo-mechanism grid and febrile neutropenia protocol. Staging systems and risk stratification are the skeleton of every answer.\n\n### Neuroblastoma and Wilms\n\nNeuroblastoma: neural-crest origin, VMA/HVA, N-myc and segmental chromosomal changes, INRGSS stages (L1/L2 locoregional with/without image-defined risk factors, M metastatic, MS special infant pattern); surgery's role runs from biopsy through delayed resection after neoadjuvant therapy. Wilms: triphasic histology, favourable versus anaplastic, NWTS-style upfront-surgery versus SIOP-style neoadjuvant thinking, nephron-sparing for bilateral, syndromic or solitary-kidney disease; pulmonary metastases and IVC thrombus extend the workup.\n\n### Liver, germ-cell and RMS\n\nHepatoblastoma: AFP tracking, PRETEXT staging, neoadjuvant chemotherapy then resection or transplant for unresectable disease. Germ-cell tumours: sacrococcygeal teratoma needs coccygectomy with the specimen; testicular tumours balance markers, orchidectomy approach (inguinal, cord control) and testis-preservation criteria. Rhabdomyosarcoma: embryonal versus alveolar biology, site-driven prognosis (orbit and non-bladder-prostate genitourinary fare better), multimodal therapy with function-preserving surgery.\n\n### Chemotherapy and radiation\n\nAlkylators (myelosuppression, infertility, second malignancy), anthracyclines (cumulative cardiotoxicity, dexrazoxane/echo surveillance), vinca alkaloids (neuropathy, constipation, extravasation necrosis), platinum agents (ototoxicity, nephrotoxicity, hydration protocols), antimetabolites (mucositis, hepatotoxicity). Radiation in children costs growth, fertility and second malignancies — proton therapy appears as the sparing advance. Febrile neutropenia protocol closes the answer (see module IV).\n\n### How it is asked\n\nBiology → staging → risk group → sequence of modalities → surgeon's exact role → follow-up. Never describe surgery without its neoadjuvant/adjuvant neighbours.",
+ "checklist": [
+  "Malignancy in childhood",
+  "Neuroblastoma, Wilms, hepatoblastoma",
+  "Germ-cell tumours, RMS, vascular tumours",
+  "Antineoplastic drugs and radiation",
+  "Febrile neutropenia"
+ ],
+ "count": 19,
+ "question_refs": [
+  {
+   "paper": "04",
+   "n": 2,
+   "title": "Germ-cell tumours, sacrococcygeal teratoma and testis preservation",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "04",
+   "n": 3,
+   "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "05",
+   "n": 2,
+   "title": "Neuroblastoma: biology, INSS, INRGSS and stage MS",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "05",
+   "n": 7,
+   "title": "Germ-cell tumours, sacrococcygeal teratoma and testis preservation",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 3,
+   "title": "Vascular tumours, malformations and Kasabach-Merritt phenomenon",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "09",
+   "n": 6,
+   "title": "Vascular tumours, malformations and Kasabach-Merritt phenomenon",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "09",
+   "n": 7,
+   "title": "Neuroblastoma: biology, INSS, INRGSS and stage MS",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 2,
+   "title": "Chemotherapy: mechanisms, toxicities and febrile neutropenia",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 4,
+   "title": "Childhood germ-cell tumours: origin, pathology and markers",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 5,
+   "title": "Hepatoblastoma, HCC, mesenchymal hamartoma and liver anatomy",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 10,
+   "title": "Wilms tumour: staging, risk and nephron-sparing surgery",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 8,
+   "title": "Rhabdomyosarcoma, paratesticular and bladder disease",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "13",
+   "n": 9,
+   "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "14",
+   "n": 2,
+   "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 3,
+   "title": "Neuroblastoma: biology, INSS, INRGSS and stage MS",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 10,
+   "title": "Vascular tumours, malformations and Kasabach-Merritt phenomenon",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 5,
+   "title": "Non-Wilms renal tumours and small-round-cell diagnostics",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 6,
+   "title": "Wilms tumour: staging, risk and nephron-sparing surgery",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 8,
+   "title": "Rhabdomyosarcoma, paratesticular and bladder disease",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  }
+ ]
+}

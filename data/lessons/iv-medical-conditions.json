@@ -1,0 +1,146 @@
+{
+ "slug": "iv-medical-conditions",
+ "area": 4,
+ "title": "Common paediatric medical conditions",
+ "objectives": [
+  "Recognise neonatal sepsis and SIRS criteria and state first-hour actions.",
+  "Manage febrile neutropenia in a child on chemotherapy stepwise.",
+  "Correct dehydration and common electrolyte emergencies with safe rates."
+ ],
+ "body_md": "### Why this area matters\n\nSurgeons get examined on the medicine that kills surgical babies: sepsis, fluids, neutropenic fever. These are protocol questions — the marks go to order, doses and thresholds, not essays.\n\n### Sepsis and SIRS\n\nNeonatal sepsis presents vaguely — temperature instability, feed intolerance, lethargy, apnoea, mottling. Blood cultures first, then broad-spectrum antibiotics within the hour, glucose and perfusion support alongside. Legacy SIRS criteria (temperature, heart and respiratory rate, white cells) organise the answer even as definitions evolve; MODS is the same story across two or more failing systems. Source control is the surgical contribution — drain the collection, remove the dead bowel, debride the wound.\n\n### Febrile neutropenia\n\nFever in a neutropenic child on chemotherapy is an emergency by definition: cultures, then empiric anti-pseudomonal beta-lactam immediately. Add vancomycin for line infection, MRSA risk or instability; add antifungals for persistent fever beyond 4–7 days. Risk-stratify (MASCC-style thinking adapted to children), watch the absolute neutrophil count nadir timing against the chemo calendar, and use G-CSF per protocol, not panic.\n\n### Fluids and electrolytes\n\nResuscitate with isotonic boluses and reassess; maintenance follows Holliday-Segar thinking adjusted for neonates; replace ongoing losses. Hyponatraemia correct slowly, hyperkalaemia and hypocalcaemia act fast on the heart — state ECG changes and treatment thresholds and the examiner stops reading critically.\n\n### How it is asked\n\nAs sub-parts inside surgical questions (sepsis after NEC, fluids around pyloric stenosis) or standalone protocols. Write in numbered steps with doses and timeframes.",
+ "checklist": [
+  "Recognition of common paediatric medical illness",
+  "Neonatal sepsis and MODS",
+  "Supportive care during chemotherapy",
+  "Fluids, electrolytes and dehydration"
+ ],
+ "count": 18,
+ "question_refs": [
+  {
+   "paper": "01",
+   "n": 1,
+   "title": "Vascular access, chemo-port and parenteral/enteral nutrition",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 2,
+   "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 3,
+   "title": "Ventilation, ECMO and neonatal surgical intensive care",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "04",
+   "n": 7,
+   "title": "Ventilation, ECMO and neonatal surgical intensive care",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "04",
+   "n": 9,
+   "title": "Neonatal thermoregulation, stress response and transport",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "05",
+   "n": 10,
+   "title": "Vascular access, chemo-port and parenteral/enteral nutrition",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "05",
+   "n": 6,
+   "title": "Intestinal failure, nutrition and transplantation",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "05",
+   "n": 9,
+   "title": "Neonatal sepsis, legacy SIRS and MODS",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "08",
+   "n": 1,
+   "title": "Intestinal failure, nutrition and transplantation",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "09",
+   "n": 2,
+   "title": "Establishing and using a neonatal surgical intensive-care unit",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 2,
+   "title": "Chemotherapy: mechanisms, toxicities and febrile neutropenia",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 5,
+   "title": "Paediatric renal transplantation",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 6,
+   "title": "Neonatal shock: recognition and management",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "13",
+   "n": 2,
+   "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "14",
+   "n": 4,
+   "title": "Paediatric kidney/liver transplantation and immunosuppression",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 6,
+   "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 3,
+   "title": "Neonatal thermoregulation, stress response and transport",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 7,
+   "title": "Paediatric kidney/liver transplantation and immunosuppression",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  }
+ ]
+}

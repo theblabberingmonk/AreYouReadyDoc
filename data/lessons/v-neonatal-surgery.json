@@ -1,0 +1,262 @@
+{
+ "slug": "v-neonatal-surgery",
+ "area": 5,
+ "title": "Neonatal surgery",
+ "objectives": [
+  "Stabilise CDH, EA/TEF, duodenal atresia and abdominal-wall defects before theatre.",
+  "State the double-bubble workup and the operation for each duodenal obstruction cause.",
+  "List prognostic markers in antenatally diagnosed surgical conditions (LHR, CVR, AFI)."
+ ],
+ "body_md": "### Why this area matters\n\nThis is the highest-yield module in the bank. CDH, oesophageal atresia, NEC, abdominal-wall defects, neonatal obstruction and Hirschsprung variants repeat across sessions with different emphasis — master the stabilisation scripts and half the exam is familiar.\n\n### The stabilisation spine\n\nEvery neonatal emergency answers in the same order: warm, position, decompress (orogastric tube), ventilate gently, access and fluids, antibiotics where indicated, then image and decide. CDH: avoid bag-mask hyperinflation, gentle ventilation, pulmonary-hypertension-first thinking, prognostication by lung-to-head ratio and liver position. EA/TEF: suction the blind pouch, nurse head-up, echo for cardiac anomalies and arch sidedness, gap assessment decides primary versus staged repair. Duodenal atresia: double bubble, NG decompression, correct the hypochloraemic alkalosis of associated vomiting, then duodenoduodenostomy — and always consider Down syndrome and cardiac screening.\n\n### Wall defects and obstruction\n\nGastroschisis (no sac, thickened peel, staged silo versus primary closure) versus omphalocele (sac present, think Beckwith-Wiedemann and cardiac anomalies). Meconium ileus: Gastrografin enema is diagnostic and often therapeutic in simple cases; complicated cases go to theatre. NEC: Bell staging drives medical versus surgical calls; portal venous gas and pneumatosis are the radiology words that matter; free air means operation.\n\n### Hirschsprung and ARM in brief\n\nDelayed passage of meconium, bilious distension, contrast enema transition zone, rectal biopsy as gold standard; pull-through variants and the postoperative obstructed-enters-colitis pathway. ARM workup is invertogram/cross-table lateral plus VACTERL sweep; pouch colon gets its own operative plan; continence is the long game, graded by Kelly-type thinking and bowel management.\n\n### How it is asked\n\nEmbryology → prognostication → stabilisation → operation → complications, in that order, nearly every time. Antenatal counselling sub-parts reward the ratios: LHR, CPAM volume ratio, amniotic fluid trends.",
+ "checklist": [
+  "Neonatal surgical emergencies",
+  "Congenital diaphragmatic hernia",
+  "Oesophageal atresia and TEF",
+  "Neonatal intestinal obstruction",
+  "Abdominal-wall defects",
+  "Necrotising enterocolitis",
+  "Hirschsprung disease and anorectal malformations",
+  "Neonatal tumours and counselling"
+ ],
+ "count": 34,
+ "question_refs": [
+  {
+   "paper": "01",
+   "n": 10,
+   "title": "Neonatal obstruction and meconium ileus",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 4,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 6,
+   "title": "Omphalocele, gastroschisis, umbilical defects and complex associations",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "02",
+   "n": 3,
+   "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 6,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 7,
+   "title": "Neonatal obstruction and meconium ileus",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 5,
+   "title": "Fetal circulation, screening, fetal surgery and EXIT",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "04",
+   "n": 4,
+   "title": "Neonatal obstruction and meconium ileus",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "04",
+   "n": 5,
+   "title": "Antenatal hydronephrosis, UPJ obstruction and biomarkers",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "04",
+   "n": 6,
+   "title": "Necrotising enterocolitis",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "04",
+   "n": 8,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "06",
+   "n": 6,
+   "title": "Omphalocele, gastroschisis, umbilical defects and complex associations",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 9,
+   "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 1,
+   "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 2,
+   "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "08",
+   "n": 2,
+   "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 5,
+   "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 1,
+   "title": "Lung development and antenatally diagnosed CPAM",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 1,
+   "title": "Omphalocele, gastroschisis, umbilical defects and complex associations",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 2,
+   "title": "Neonatal obstruction and meconium ileus",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 4,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 7,
+   "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 2,
+   "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "13",
+   "n": 1,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "13",
+   "n": 10,
+   "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "13",
+   "n": 7,
+   "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "14",
+   "n": 1,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 10,
+   "title": "Fetal circulation, screening, fetal surgery and EXIT",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 8,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 9,
+   "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 10,
+   "title": "Necrotising enterocolitis",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 4,
+   "title": "Oesophageal atresia, long-gap reconstruction and substitution",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 6,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 10,
+   "title": "Fetal circulation, screening, fetal surgery and EXIT",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  }
+ ]
+}

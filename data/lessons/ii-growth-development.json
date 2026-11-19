@@ -1,0 +1,62 @@
+{
+ "slug": "ii-growth-development",
+ "area": 2,
+ "title": "Growth & development",
+ "objectives": [
+  "Plot normal growth velocity and state when head circumference stops being the lead parameter.",
+  "List red-flag developmental milestones that alter surgical timing.",
+  "Explain catch-up growth after chronic disease and what blunts it."
+ ],
+ "body_md": "### Why this area matters\n\nNo recent paper asks growth charts directly — which is exactly why a short, confident paragraph scores when development affects a surgical decision (timing of orchidopexy, elective surgery in a malnourished child, adolescent bariatric selection).\n\n### The exam-usable core\n\nGrowth velocity peaks in infancy, steadies through childhood, and surges at puberty; crossing centiles downward matters more than any single point. Chronic disease (IBD-type malabsorption, CKD, cyanotic heart disease, chronic sepsis) flattens velocity first and weight before height — catch-up follows cure only if nutrition, hormones and chronic inflammation all normalise. Head circumference tracks brain growth and matters most under two years; macro/microcephaly in a surgical neonate should trigger a neurodevelopmental look before elective timing is fixed.\n\nDevelopmental milestones decide fitness and consent conversations, not operative steps: global delay changes anaesthetic planning, postoperative expectations and follow-up intensity. Adolescence adds capacity assessment for assent, bariatric candidacy and transition planning.\n\n### How it is asked\n\nRarely standalone — usually one sub-part stapled to nutrition, chronic disease or adolescent surgery. Answer with one velocity statement, one centile-crossing rule, and one sentence tying it to the case in front of you.",
+ "checklist": [
+  "Normal growth patterns and velocity",
+  "Developmental milestones",
+  "Growth failure in chronic surgical disease",
+  "Catch-up growth and its limits"
+ ],
+ "count": 6,
+ "question_refs": [
+  {
+   "paper": "03",
+   "n": 10,
+   "title": "Lung development, CPAM, sequestration and lobar resection",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 1,
+   "title": "Lung development, CPAM, sequestration and lobar resection",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "09",
+   "n": 9,
+   "title": "Childhood obesity and adolescent metabolic surgery",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 1,
+   "title": "Lung development and antenatally diagnosed CPAM",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "13",
+   "n": 6,
+   "title": "Lung development, CPAM, sequestration and lobar resection",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "15",
+   "n": 5,
+   "title": "Lung development, CPAM, sequestration and lobar resection",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  }
+ ]
+}

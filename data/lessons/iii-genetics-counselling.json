@@ -1,0 +1,48 @@
+{
+ "slug": "iii-genetics-counselling",
+ "area": 3,
+ "title": "Genetics & parent counselling",
+ "objectives": [
+  "State recurrence risks for VACTERL-type associations versus single-gene syndromes you will be asked about.",
+  "Outline what a prenatal counselling session must cover after an anomaly scan.",
+  "List red-flag features that convert an isolated anomaly into a syndromic workup."
+ ],
+ "body_md": "### Why this area matters\n\nGenetics hides inside other questions: DSD assessment, sacrococcygeal teratoma associations, Hirschsprung with Down syndrome, ARM with VACTERL screening. The examiner wants one thing — do you look beyond the index lesion, and can you counsel without alarming?\n\n### The counselling frame that always works\n\nAfter any antenatal or postnatal diagnosis: confirm the finding, grade severity and certainty, screen the rest of the fetus or baby (heart, spine, limbs, kidneys — the VACTERL sweep), state what is known and what is not, give management options with timelines, and document. Never quote a prognosis from a single scan image; fetal lung lesions and hydronephrosis both regress often enough that serial assessment is the plan.\n\n### Syndromes that recur in answers\n\nDown syndrome travels with Hirschsprung disease, duodenal atresia and AV canal defects. DSD assessment is multidisciplinary by rule — karyotype, hormones, imaging and psychology before any sex assignment or surgery. CAH (21-hydroxylase) is the commonest DSD presentation with salt wasting as the emergency. Beckwith-Wiedemann raises Wilms and hepatoblastoma surveillance. Document family history, consanguinity and previous affected pregnancies every time.\n\n### How it is asked\n\nUsually a sub-part: counsel parents of a fetus with CDH, CPAM or hydronephrosis; work up DSD; screen an ARM baby. Structure wins: finding → associated sweep → options → timeline → documentation.",
+ "checklist": [
+  "Genetics as applied to surgery",
+  "Parent counselling after antenatal diagnosis",
+  "Syndromic associations (VACTERL, Down, BWS)",
+  "DSD and multidisciplinary assessment"
+ ],
+ "count": 4,
+ "question_refs": [
+  {
+   "paper": "05",
+   "n": 4,
+   "title": "Trauma scores, SCIWORA, burns and compartment syndromes",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "05",
+   "n": 5,
+   "title": "Trauma scores, SCIWORA, burns and compartment syndromes",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "12",
+   "n": 6,
+   "title": "Sexual differentiation, CAH and multidisciplinary DSD assessment",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 1,
+   "title": "Bladder exstrophy, epispadias and prune-belly syndrome",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  }
+ ]
+}

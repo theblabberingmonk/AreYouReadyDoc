@@ -1,0 +1,139 @@
+{
+ "slug": "vii-sicu-transport",
+ "area": 7,
+ "title": "Intensive care, referral & transport",
+ "objectives": [
+  "Set ventilator strategy for a postoperative neonate and state ECMO indications.",
+  "Write the transport checklist for a surgical neonate (warm chain, tube, access, documentation).",
+  "List what a neonatal SICU needs that an adult ICU does not."
+ ],
+ "body_md": "### Why this area matters\n\nOne full question per session on average covers SICU organisation, ventilation/ECMO, transport or nutrition access. It reads like administration but scores like protocol — lists with thresholds.\n\n### Ventilation and ECMO\n\nNeonatal lungs want low tidal volumes, adequate PEEP and permissive hypercapnia within limits; CDH and PPHN add pulmonary-hypertension-first management (oxygen, alkalosis within safe bounds, inhaled nitric oxide, then ECMO). ECMO indications: reversible respiratory or cardiac failure refractory to maximal therapy, with weight/gestation cutoffs, no major intracranial bleed, and a defined trial window — bridge to recovery, not destination therapy in neonates.\n\n### The SICU and transport\n\nA neonatal surgical ICU differs by warmer/incubator capacity, neonatal ventilators and circuits, parenteral nutrition compounding, and nursing ratios that assume total dependence. Organisation answers cover staffing, protocols, infection control and audit. Transport is a stabilise-then-move discipline: warm chain, secured airway with suction, two working IVs or IO, NG on drainage, glucose checked, monitors on, referral note with vitals trend, and a receiving team warned before wheels roll.\n\n### Access and nutrition\n\nCentral access ladder: peripheral → ultrasound-guided → PICC → tunnelled line → implantable port, chosen by duration and osmolarity. Parenteral nutrition complications divide into line (sepsis, thrombosis), metabolic (cholestasis, bone disease, electrolyte shifts) and gut (atrophy, bacterial translocation) — enteral feeding, even trophic, protects against all three.\n\n### How it is asked\n\nOrganisation questions want structure (staff, equipment, protocols, audit); clinical ones want thresholds and sequences. The transport checklist is a guaranteed sub-part somewhere.",
+ "checklist": [
+  "Organisation of intensive care",
+  "Neonatal ventilation and ECMO",
+  "Referral and transport services",
+  "Vascular access and parenteral nutrition"
+ ],
+ "count": 17,
+ "question_refs": [
+  {
+   "paper": "01",
+   "n": 1,
+   "title": "Vascular access, chemo-port and parenteral/enteral nutrition",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 2,
+   "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 3,
+   "title": "Ventilation, ECMO and neonatal surgical intensive care",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "04",
+   "n": 7,
+   "title": "Ventilation, ECMO and neonatal surgical intensive care",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "04",
+   "n": 9,
+   "title": "Neonatal thermoregulation, stress response and transport",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "05",
+   "n": 10,
+   "title": "Vascular access, chemo-port and parenteral/enteral nutrition",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "05",
+   "n": 6,
+   "title": "Intestinal failure, nutrition and transplantation",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "05",
+   "n": 9,
+   "title": "Neonatal sepsis, legacy SIRS and MODS",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "08",
+   "n": 1,
+   "title": "Intestinal failure, nutrition and transplantation",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "09",
+   "n": 2,
+   "title": "Establishing and using a neonatal surgical intensive-care unit",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 5,
+   "title": "Paediatric renal transplantation",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 6,
+   "title": "Neonatal shock: recognition and management",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "13",
+   "n": 2,
+   "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "14",
+   "n": 4,
+   "title": "Paediatric kidney/liver transplantation and immunosuppression",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 6,
+   "title": "Paediatric/neonatal fluids, dehydration and electrolyte emergencies",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 3,
+   "title": "Neonatal thermoregulation, stress response and transport",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 7,
+   "title": "Paediatric kidney/liver transplantation and immunosuppression",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  }
+ ]
+}

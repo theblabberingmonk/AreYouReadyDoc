@@ -1,0 +1,34 @@
+{
+ "slug": "ix-surgical-pathology",
+ "area": 9,
+ "title": "Surgical pathology of childhood",
+ "objectives": [
+  "State the histology that confirms Hirschsprung, biliary atresia and Wilms substaging.",
+  "List small-round-cell tumour differentials with the immunostain that separates each.",
+  "Explain Stocker CPAM types and germ-cell tumour marker patterns."
+ ],
+ "body_md": "### Why this area matters\n\nPathology sub-parts sit inside tumour, Hirschsprung, biliary and lung questions. The marks go to named stains, named types and marker patterns — general descriptions score poorly.\n\n### The non-negotiable histologies\n\nHirschsprung: absent ganglion cells with hypertrophic nerve trunks on rectal biopsy (acetylcholinesterase backup). Biliary atresia: portal-tract fibrosis, bile-duct proliferation and plugs versus neonatal hepatitis patterns. Wilms: favourable versus anaplastic histology drives everything after surgery. CPAM follows Stocker 0–IV by cyst size and cell lining — and the exam separates prenatal ultrasound size classes from pathology types, so name both systems.\n\n### Small-round-cell tumours\n\nNeuroblastoma (Homer-Wright rosettes, N-myc, INPC Shimada), Wilms (triphasic blastemal-epithelial-stromal), rhabdomyosarcoma (embryonal versus alveolar, myogenin/MyoD1), Ewing/PNET (CD99, EWSR1 translocation), lymphoma (LCA). One line each: morphology + the stain or translocation that clinches it. Germ-cell tumours split by age and site with markers AFP (yolk sac), beta-hCG (choriocarcinoma), LDH and PLAP patterns.\n\n### Tumour markers as pathology\n\nAFP half-life tracks yolk-sac response; beta-hCG marks choriocarcinomatous elements; VMA/HVA follow neuroblastoma; NSE is supportive. State what rises, what normalises with cure, and what a plateau means (residual or resistant disease).\n\n### How it is asked\n\n“Under the microscope” sub-parts, marker grids, and classify-then-manage stems. Tables beat paragraphs — stain in the left column, diagnosis on the right.",
+ "checklist": [
+  "Pathology of surgical conditions of childhood",
+  "Microscopic appearances that change management",
+  "Tumour pathology and immunohistochemistry",
+  "Tumour markers"
+ ],
+ "count": 2,
+ "question_refs": [
+  {
+   "paper": "04",
+   "n": 5,
+   "title": "Antenatal hydronephrosis, UPJ obstruction and biomarkers",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "10",
+   "n": 4,
+   "title": "Childhood germ-cell tumours: origin, pathology and markers",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  }
+ ]
+}

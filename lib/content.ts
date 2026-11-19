@@ -98,6 +98,66 @@ export function getTopicSlugs(): string[] {
   return getTopics().map((t) => t.slug);
 }
 
+const LessonRefSchema = z.object({
+  paper: z.string(),
+  n: z.number().int(),
+  title: z.string(),
+  marks: z.string().default(""),
+  context: z.string(),
+});
+
+const LessonSchema = z.object({
+  slug: z.string(),
+  area: z.number().int(),
+  title: z.string(),
+  objectives: z.array(z.string()),
+  body_md: z.string(),
+  checklist: z.array(z.string()),
+  count: z.number().int().nonnegative(),
+  question_refs: z.array(LessonRefSchema),
+});
+
+const LessonsIndexSchema = z.object({
+  lessons: z.array(
+    z.object({
+      slug: z.string(),
+      area: z.number().int(),
+      title: z.string(),
+      count: z.number().int().nonnegative(),
+    }),
+  ),
+});
+
+export type Lesson = z.infer<typeof LessonSchema>;
+export type LessonIndexEntry = z.infer<typeof LessonsIndexSchema>["lessons"][number];
+
+export function getLessonsIndex(): LessonIndexEntry[] {
+  const parsed = LessonsIndexSchema.safeParse(readJson("lessons-index.json"));
+  if (!parsed.success) {
+    throw new Error(
+      `Invalid data/lessons-index.json — run build_lessons.py. ${parsed.error.message}`,
+    );
+  }
+  return parsed.data.lessons;
+}
+
+export function getLessonSlugs(): string[] {
+  return getLessonsIndex().map((l) => l.slug);
+}
+
+export function getLesson(slug: string): Lesson | null {
+  if (!/^[-a-z0-9]+$/.test(slug)) return null;
+  try {
+    const parsed = LessonSchema.safeParse(readJson(`lessons/${slug}.json`));
+    if (!parsed.success) {
+      throw new Error(`Invalid data/lessons/${slug}.json: ${parsed.error.message}`);
+    }
+    return parsed.data;
+  } catch {
+    return null;
+  }
+}
+
 let cachedIndex: ContentIndex | null = null;
 const paperCache = new Map<string, Paper | null>();
 

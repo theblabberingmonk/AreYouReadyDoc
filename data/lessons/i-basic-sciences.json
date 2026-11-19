@@ -1,0 +1,116 @@
+{
+ "slug": "i-basic-sciences",
+ "area": 1,
+ "title": "Basic sciences as applied to paediatric surgery",
+ "objectives": [
+  "Draw the timeline of foregut budding, tracheoesophageal septation and lung phases with weeks.",
+  "Trace the three fetal shunts and the changes at first breath.",
+  "State neonatal fluid, glucose and thermoregulation principles that change drug dosing.",
+  "Explain why aminoglycosides, chloramphenicol and tetracyclines need special caution in neonates."
+ ],
+ "body_md": "### Why this area matters\n\nAlmost every Paper 1 opens here. Examiners love tables you can draw in ninety seconds: pharyngeal-arch derivatives, lung-development phases, fetal shunts. These are pure recall marks — bank them.\n\n### Embryology you must be able to draw\n\nThe respiratory diverticulum buds from ventral foregut endoderm at week 4; faulty tracheoesophageal septation gives the EA/TEF spectrum. Lung development runs embryonic (4–7 weeks), pseudoglandular (5–17), canalicular (16–25), saccular (24 weeks to birth) and alveolar (late fetal life through childhood) — surfactant, vascular maturation and septation decide viability, never one single week. Diaphragmatic components close by week 8; failure leaves the Bochdalek defect behind the CDH story. Germ-cell tumours trace to migrating primordial germ cells, which is why midline and gonadal sites dominate.\n\n### Fetal circulation in one paragraph\n\nOxygenated blood crosses the placenta → umbilical vein → ductus venosus (bypassing liver) → IVC → right atrium → foramen ovale → left heart → brain and coronaries first. Deoxygenated return goes SVC → right ventricle → ductus arteriosus → descending aorta → umbilical arteries. At birth, cord clamping raises systemic resistance, lung aeration drops pulmonary resistance, and the three shunts close functionally — persistent patency is the pathophysiology behind PPHN-style questions.\n\n### Neonatal physiology and pharmacology\n\nHigh total-body water and low fat/protein binding expand the volume of distribution for water-soluble drugs; immature glucuronidation (chloramphenicol grey-baby risk) and renal clearance (aminoglycoside accumulation) prolong half-lives. Dose by weight, correct for prematurity, and monitor levels. Neonates lose heat fast (large surface area, little subcutaneous fat) and burn glycogen quickly — warm chain and glucose monitoring are never optional in theatre or transport.\n\n### How it is asked\n\nExpect: draw-and-label embryology tables, fetal shunt tracing with postnatal changes, fluid/electrolyte calculations, and mechanism-plus-toxicity drug grids (the chemotherapy question is really a pharmacology question in disguise).",
+ "checklist": [
+  "Developmental anatomy and physiology",
+  "Applied and regional anatomy",
+  "Physiology as applied to children",
+  "Neonatal physiology, metabolism and pathology",
+  "General pathology with paediatric emphasis",
+  "Pharmacokinetics in paediatrics and neonates",
+  "Biochemical and metabolic considerations",
+  "Foetal anatomy, physiology and pathology"
+ ],
+ "count": 13,
+ "question_refs": [
+  {
+   "paper": "01",
+   "n": 4,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "02",
+   "n": 6,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 5,
+   "title": "Fetal circulation, screening, fetal surgery and EXIT",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "04",
+   "n": 8,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "06",
+   "n": 4,
+   "title": "Pharyngeal arches: exam table of nerves, muscles and arteries",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "11",
+   "n": 4,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "13",
+   "n": 1,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "14",
+   "n": 1,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 10,
+   "title": "Fetal circulation, screening, fetal surgery and EXIT",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 8,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 6,
+   "title": "Pharyngeal arches: exam table of nerves, muscles and arteries",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 6,
+   "title": "Congenital diaphragmatic hernia: embryology, prognostication and stabilization",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 10,
+   "title": "Fetal circulation, screening, fetal surgery and EXIT",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  }
+ ]
+}

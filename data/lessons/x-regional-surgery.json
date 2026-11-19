@@ -1,0 +1,622 @@
+{
+ "slug": "x-regional-surgery",
+ "area": 10,
+ "title": "Systemic & regional surgery",
+ "objectives": [
+  "Work up antenatal hydronephrosis, VUR and PUV from scan to decision.",
+  "Grade hypospadias and state when to operate and when to stage.",
+  "Outline neurogenic bladder management from CIC to augmentation."
+ ],
+ "body_md": "### Why this area matters\n\nThe largest module by question count — urology alone could fill a paper. Add thoracic (CPAM, empyema, pectus), head-neck (clefts, branchial, thyroglossal), neurosurgery (NTDs, hydrocephalus) and DSD. Breadth beats depth here; know every entity's workup spine.\n\n### Urology spines\n\nAntenatal hydronephrosis: postnatal US timing, MCU, then diuretic renography; UPJ obstruction with declining function or symptoms gets pyeloplasty. VUR: grade on MCU, prophylaxis versus reimplantation by grade, breakthrough infections and scarring as escalation triggers. PUV: antenatal oligohydramnios and keyhole bladder, postnatal catheter drainage, valve ablation, then lifelong valve-bladder surveillance — nadir creatinine predicts the renal future. Hypospadias: meatal position plus chordee grade the repair; distal single-stage, severe proximal staged; operate in the 6–18 month window. Undescended testis: examine, image only the impalpable, laparoscopy as diagnostic and therapeutic, orchidopexy before one year where possible.\n\n### Neurogenic bladder and DSD\n\nClean intermittent catheterisation plus anticholinergics is the base; augmentation (ileocystoplasty) and continent channels (Mitrofanoff/Monti) serve low-compliance, high-pressure, incontinent bladders threatening kidneys. DSD: karyotype, hormones, imaging and psychology before assignment; CAH salt-wasting is the emergency within the workup.\n\n### Thoracic, head-neck, neuro\n\nCPAM: CVR above ~1.6 flags hydrops risk; steroids for microcystic high-risk lesions, drainage for dominant macrocysts, resection for symptomatic postnatal disease. Empyema stages decide fibrinolytics versus VATS/decortication. Branchial and thyroglossal lesions excise completely (Sistrunk includes hyoid core). NTDs: folate prevention, MOMS-trial fetal repair criteria, tethered-cord surveillance; hydrocephalus shunts need the complication list (obstruction, infection, overdrainage) on demand.\n\n### How it is asked\n\nWorkup spines with decision thresholds, operative indications with timing, and lifelong follow-up plans. Urology answers that stop at surgery lose the follow-up marks.",
+ "checklist": [
+  "Paediatric urology (PUV, VUR, hypospadias, UPJ, DSD)",
+  "Neurogenic bladder and reconstruction",
+  "Thoracic surgery",
+  "Plastic, head-neck and neurosurgical conditions"
+ ],
+ "count": 86,
+ "question_refs": [
+  {
+   "paper": "01",
+   "n": 5,
+   "title": "Upper gastrointestinal bleeding in children",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 7,
+   "title": "Choledochal cyst and bilirubin metabolism",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 8,
+   "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "01",
+   "n": 9,
+   "title": "Caustic ingestion, stricture and endoscopy",
+   "marks": "",
+   "context": "2020-06 · Part 1"
+  },
+  {
+   "paper": "02",
+   "n": 1,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 10,
+   "title": "Caustic ingestion, stricture and endoscopy",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 2,
+   "title": "Neural-tube defects, tethered cord and the MOMS trial",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 3,
+   "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 4,
+   "title": "Achalasia cardia",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 5,
+   "title": "Anorectal malformations, pouch colon and postoperative continence",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 8,
+   "title": "Chest-wall deformities and pectus repair",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "02",
+   "n": 9,
+   "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 10,
+   "title": "Lung development, CPAM, sequestration and lobar resection",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 3,
+   "title": "Bladder innervation, urodynamics and neurogenic bladder",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 4,
+   "title": "Portal hypertension, EHPVO, shunts and Budd-Chiari",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 6,
+   "title": "Bladder innervation, urodynamics and neurogenic bladder",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 7,
+   "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "03",
+   "n": 8,
+   "title": "Bladder augmentation and continent urinary reconstruction",
+   "marks": "",
+   "context": "2020-06 · Part 2 Final"
+  },
+  {
+   "paper": "04",
+   "n": 1,
+   "title": "Choledochal cyst and bilirubin metabolism",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "04",
+   "n": 10,
+   "title": "Branchial anomalies, thyroglossal tract and cervical lymphadenopathy",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "04",
+   "n": 5,
+   "title": "Antenatal hydronephrosis, UPJ obstruction and biomarkers",
+   "marks": "",
+   "context": "2020-12 · Part 1"
+  },
+  {
+   "paper": "06",
+   "n": 1,
+   "title": "Lung development, CPAM, sequestration and lobar resection",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 10,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 2,
+   "title": "Appendicitis and intussusception",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 3,
+   "title": "Intestinal, colonic and pyloric atresia",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 5,
+   "title": "Intestinal, colonic and pyloric atresia",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 7,
+   "title": "Persistent cloaca, hydrocolpos and genital obstruction",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "06",
+   "n": 8,
+   "title": "Chest-wall deformities and pectus repair",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 1,
+   "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 2,
+   "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 4,
+   "title": "Hypospadias, curvature and graft urethroplasty",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 6,
+   "title": "Neural-tube defects, tethered cord and the MOMS trial",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 7,
+   "title": "Bladder augmentation and continent urinary reconstruction",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 8,
+   "title": "VUR, UTIs and ureteric reimplantation",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "07",
+   "n": 9,
+   "title": "Testicular descent, impalpable testis and orchidopexy",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "08",
+   "n": 10,
+   "title": "Alimentary duplications, Meckel diverticulum and mesenteric lesions",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 2,
+   "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 3,
+   "title": "Intestinal rotation, malrotation and midgut volvulus",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 4,
+   "title": "Empyema, chylothorax, mediastinal masses and lung hydatid",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 6,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 7,
+   "title": "Caustic ingestion, stricture and endoscopy",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 8,
+   "title": "Branchial anomalies, thyroglossal tract and cervical lymphadenopathy",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "08",
+   "n": 9,
+   "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "09",
+   "n": 3,
+   "title": "VUR, UTIs and ureteric reimplantation",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "09",
+   "n": 4,
+   "title": "Hypospadias, curvature and graft urethroplasty",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "09",
+   "n": 5,
+   "title": "Bladder augmentation and continent urinary reconstruction",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "09",
+   "n": 9,
+   "title": "Childhood obesity and adolescent metabolic surgery",
+   "marks": "",
+   "context": "2021-10 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 1,
+   "title": "Lung development and antenatally diagnosed CPAM",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 5,
+   "title": "Paediatric renal transplantation",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 7,
+   "title": "Bladder innervation and neurogenic bladder pharmacotherapy",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "10",
+   "n": 9,
+   "title": "Pyloric stenosis: biochemical disturbance and optimization",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 10,
+   "title": "Chest-wall deformities and pectus repair",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 3,
+   "title": "Neural-tube defects, tethered cord and the MOMS trial",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 5,
+   "title": "Hepatoblastoma, HCC, mesenchymal hamartoma and liver anatomy",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 6,
+   "title": "CSF circulation, hydrocephalus and shunt complications",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 8,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "11",
+   "n": 9,
+   "title": "Anorectal malformations, pouch colon and postoperative continence",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 1,
+   "title": "Portal hypertension, EHPVO, shunts and Budd-Chiari",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 2,
+   "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 3,
+   "title": "Anorectal malformations, pouch colon and postoperative continence",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 4,
+   "title": "Persistent cloaca, hydrocolpos and genital obstruction",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 6,
+   "title": "Sexual differentiation, CAH and multidisciplinary DSD assessment",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 7,
+   "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "12",
+   "n": 9,
+   "title": "Anorectal malformations, pouch colon and postoperative continence",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "13",
+   "n": 10,
+   "title": "Neonatal cholestasis, biliary atresia and Kasai outcomes",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "13",
+   "n": 4,
+   "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "13",
+   "n": 5,
+   "title": "Testicular descent, impalpable testis and orchidopexy",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "13",
+   "n": 6,
+   "title": "Lung development, CPAM, sequestration and lobar resection",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "13",
+   "n": 8,
+   "title": "Enteric neuromuscular disorders, appendix reconstruction and manometry",
+   "marks": "",
+   "context": "2022-12 · Direct 6 Years Part 1"
+  },
+  {
+   "paper": "14",
+   "n": 4,
+   "title": "Paediatric kidney/liver transplantation and immunosuppression",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 9,
+   "title": "Posterior urethral valves: fetal diagnosis, decompression and valve bladder",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 1,
+   "title": "Intestinal, colonic and pyloric atresia",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 2,
+   "title": "Hirschsprung disease: diagnosis, pull-through and postoperative obstruction",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 3,
+   "title": "Anorectal malformations, pouch colon and postoperative continence",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 5,
+   "title": "Lung development, CPAM, sequestration and lobar resection",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 7,
+   "title": "Branchial anomalies, thyroglossal tract and cervical lymphadenopathy",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 8,
+   "title": "Clefts, craniosynostosis, torticollis and airway lesions",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "15",
+   "n": 9,
+   "title": "Intestinal rotation, malrotation and midgut volvulus",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 1,
+   "title": "Bladder exstrophy, epispadias and prune-belly syndrome",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 2,
+   "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 3,
+   "title": "Hypospadias, curvature and graft urethroplasty",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 4,
+   "title": "Bladder innervation, urodynamics and neurogenic bladder",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 5,
+   "title": "VUR, UTIs and ureteric reimplantation",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 8,
+   "title": "CSF circulation, hydrocephalus and shunt complications",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "16",
+   "n": 9,
+   "title": "Duplex systems, ectopic ureter, ureterocele and megaureter",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 7,
+   "title": "Paediatric kidney/liver transplantation and immunosuppression",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  }
+ ]
+}

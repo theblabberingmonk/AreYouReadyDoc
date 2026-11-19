@@ -1,0 +1,49 @@
+{
+ "slug": "xiv-research-ethics",
+ "area": 14,
+ "title": "Research, statistics & ethics",
+ "objectives": [
+  "Rank study designs by evidence level and name each design's signature bias.",
+  "Interpret p-values, confidence intervals, sensitivity/specificity and ROC thinking.",
+  "State consent, assent and ethics-committee requirements for paediatric research."
+ ],
+ "body_md": "### Why this area matters\n\nOne predictable question per exam cycle, and the easiest distinction-level marks available: designs, biases, basic stats, ethics. Clinicians underprepare it; you will not.\n\n### Designs and biases\n\nCase report < case series < case-control (recall bias, odds ratio) < cohort (loss to follow-up, relative risk) < RCT (allocation concealment, intention-to-treat) < systematic review/meta-analysis. Diagnostic-accuracy studies need STARD-style thinking: blinding, consecutive spectrum, reference standard. Bias word-bank: selection, recall, lead-time and length-time (screening), publication, confounding — define each with its fix (randomisation, blinding, stratification, matching).\n\n### Statistics that actually get asked\n\nP-value as incompatibility with the null, not truth probability; confidence intervals as precision; power and sample-size drivers (effect size, variance, alpha, power); sensitivity/specificity versus predictive values (prevalence-dependent); ROC curves trading sensitivity against specificity. Read a 2×2 table fluently and the question answers itself.\n\n### Ethics and medico-legal\n\nPaediatric research needs ethics-committee approval, parental consent plus child assent by age and maturity, minimal-risk justification, and data confidentiality. Clinical ethics Army: best interests, Gillick-type competence for adolescents, second opinions in DSD and oncology, honest counselling with documentation. Medico-legal answers cover consent validity, negligence (duty, breach, causation, damage), record-keeping and MLC documentation in trauma.\n\n### How it is asked\n\nDefine → rank → apply to a vignette → state the ethical call. Short structured answers outscore long ones here; use the word-bank deliberately.",
+ "checklist": [
+  "Biostatistics and research methodology",
+  "Study designs and bias",
+  "Clinical epidemiology",
+  "Ethics and medico-legal aspects",
+  "Health policy issues"
+ ],
+ "count": 4,
+ "question_refs": [
+  {
+   "paper": "05",
+   "n": 8,
+   "title": "Research designs, statistics, bias and publication metrics",
+   "marks": "",
+   "context": "2020-12 · Part 2 Final"
+  },
+  {
+   "paper": "10",
+   "n": 8,
+   "title": "Levels of evidence, randomized trials and cohort studies",
+   "marks": "",
+   "context": "2022-06 · DrNB"
+  },
+  {
+   "paper": "14",
+   "n": 5,
+   "title": "Research designs, statistics, bias and publication metrics",
+   "marks": "",
+   "context": "2022-12 · DrNB"
+  },
+  {
+   "paper": "17",
+   "n": 9,
+   "title": "Research designs, statistics, bias and publication metrics",
+   "marks": "",
+   "context": "2023-04 · DrNB"
+  }
+ ]
+}
