@@ -18,10 +18,11 @@ export default function OverallProgress({
   }
 
   const pct = totalQuestions > 0 ? Math.round((revised / totalQuestions) * 100) : 0;
+  const fill = totalQuestions > 0 ? revised / totalQuestions : 0;
 
   return (
     <div className="progress-line">
-      <span className="bar" style={{ ["--pct" as string]: `${pct}%` }} aria-hidden="true">
+      <span className="bar" style={{ ["--fill" as string]: fill }} aria-hidden="true">
         <span />
       </span>
       <span className="progress-line__text">

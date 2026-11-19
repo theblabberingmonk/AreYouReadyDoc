@@ -61,7 +61,9 @@ The anti-AI-slop contract. Every PR is reviewed against this list.
   No gradients, no purple, no neon.
 - **No AI-slop tells.** No "✨" bullets, no glassmorphism, no hero with a
   floating 3D blob, no stock-photo doctors, no "Supercharge your prep with
-  AI!!" copy. Copy is written like a colleague wrote it.
+  AI!!" copy. Copy is written like a colleague wrote it. Concrete rules are
+  enforced from the vendored skills in [`docs/design/`](design/README.md);
+  deliberate deviations from those skills are listed there.
 - **Content is the interface.** Questions and answers occupy 90% of the
   screen. Chrome (nav, progress) recedes.
 - **Motion is information.** Transitions 150–250ms, ease-out, only to

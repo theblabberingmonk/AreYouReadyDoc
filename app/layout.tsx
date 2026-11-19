@@ -32,6 +32,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${sans.variable} ${serif.variable}`}>
       <body>
         <ClerkProvider>
+          <a href="#main-content" className="skip-link">
+            Skip to content
+          </a>
           <header className="site-header">
             <div className="shell site-header__inner">
               <Link href="/" className="wordmark">
@@ -48,7 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </header>
 
-          {children}
+          <div id="main-content">{children}</div>
 
           <footer className="site-footer">
             <div className="shell">
@@ -57,6 +60,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 educational fair dealing. Model answers and illustrations are original work.
               </p>
               <p>For exam preparation only — not clinical guidance.</p>
+              <nav className="site-footer__nav" aria-label="Footer">
+                <Link href="/">Papers</Link>
+                <Link href="/privacy">Privacy</Link>
+              </nav>
             </div>
           </footer>
         </ClerkProvider>

@@ -42,7 +42,7 @@ export default function ProgressRing({
           strokeLinecap="round"
           strokeDasharray={`${c * pct} ${c}`}
           transform={`rotate(-90 ${size / 2} ${size / 2})`}
-          style={{ transition: "stroke-dasharray 320ms ease" }}
+          style={{ transition: "stroke-dasharray 320ms var(--ease)" }}
         />
         <text
           x="50%"

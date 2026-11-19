@@ -121,6 +121,7 @@ export default function PaperReader({ paper }: { paper: Paper }) {
 
   const allOpen = open.size === total;
   const pct = total > 0 ? Math.round((revisedCount / total) * 100) : 0;
+  const fill = total > 0 ? revisedCount / total : 0;
 
   return (
     <>
@@ -130,7 +131,7 @@ export default function PaperReader({ paper }: { paper: Paper }) {
             <strong>{revisedCount}</strong> of {total} revised
             {revisedCount === total && total > 0 ? " · paper complete" : ""}
           </span>
-          <span className="bar" style={{ ["--pct" as string]: `${pct}%` }} aria-hidden="true">
+          <span className="bar" style={{ ["--fill" as string]: fill }} aria-hidden="true">
             <span />
           </span>
           <button

@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useStore, countRevised, refOf } from "@/lib/progress";
+import { useStore, refOf } from "@/lib/progress";
 import type { PaperIndexEntry } from "@/lib/content";
 import ProgressRing from "./ProgressRing";
+import Reveal from "./Reveal";
 
 export default function LibraryGrid({
   sessions,
@@ -23,37 +24,39 @@ export default function LibraryGrid({
             </span>
           </div>
           <div className="paper-grid">
-            {papers.map((paper) => {
+            {papers.map((paper, index) => {
               const revised = countPaper(state, paper);
               const done = revised === paper.count && paper.count > 0;
               return (
-                <Link
-                  key={paper.id}
-                  href={`/papers/${paper.id}`}
-                  className={`paper-card${done ? " paper-card--done" : ""}`}
-                >
-                  <span className="paper-card__body">
-                    <span className="paper-card__kicker">
-                      {paper.track} · {paper.paper}
+                <Reveal key={paper.id} delay={Math.min(index * 60, 400)}>
+                  <Link
+                    href={`/papers/${paper.id}`}
+                    className={`paper-card${done ? " paper-card--done" : ""}`}
+                    aria-label={`${paper.title}: ${revised} of ${paper.count} questions revised`}
+                  >
+                    <span className="paper-card__body">
+                      <span className="paper-card__kicker">
+                        {paper.track} · {paper.paper}
+                      </span>
+                      <span className="paper-card__title">{paper.session}</span>
+                      <span className="paper-card__meta">
+                        {done ? (
+                          <span className="done">Complete · {paper.count} questions</span>
+                        ) : (
+                          <>
+                            <span className={revised ? "done" : undefined}>{revised}</span> of{" "}
+                            {paper.count} revised
+                          </>
+                        )}
+                      </span>
                     </span>
-                    <span className="paper-card__title">{paper.session}</span>
-                    <span className="paper-card__meta">
-                      {done ? (
-                        <span className="done">Complete · {paper.count} questions</span>
-                      ) : (
-                        <>
-                          <span className={revised ? "done" : undefined}>{revised}</span> of{" "}
-                          {paper.count} revised
-                        </>
-                      )}
-                    </span>
-                  </span>
-                  <ProgressRing
-                    value={revised}
-                    total={paper.count}
-                    label={`${paper.title}: ${revised} of ${paper.count} revised`}
-                  />
-                </Link>
+                    <ProgressRing
+                      value={revised}
+                      total={paper.count}
+                      label={`${paper.title}: ${revised} of ${paper.count} revised`}
+                    />
+                  </Link>
+                </Reveal>
               );
             })}
           </div>
