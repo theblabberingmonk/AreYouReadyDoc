@@ -26,8 +26,15 @@ Each phase is deployable and leaves the site better than before.
 
 ## Phase 2 — Accounts & sync
 
-- [ ] Supabase Auth magic link: `/signin`, `auth/callback`, session middleware
-- [ ] `POST /api/sync` (batched, idempotent upserts, auth'd user only)
+> **Prerequisite (ADR-0004):** wire Clerk JWT → Supabase before any sync code:
+> configure Clerk as a Supabase third-party auth provider, change `user_id`
+> columns from `uuid references auth.users` to `text` (Clerk user id), and
+> rewrite RLS policies to compare against `auth.jwt()->>'sub'`. Schema in §2
+> above is the Supabase-Auth shape; update it in the same migration.
+
+- [ ] Clerk production instance configured; production keys in Vercel env vars
+
+- [ ] `POST /api/sync` (batched, idempotent upserts, Clerk-authenticated user only)
 - [ ] First-sign-in merge (union revisions/bookmarks, latest-note wins) + steady-state push/pull
 - [ ] Sync status dot (idle / pending / error), never a spinner
 - [ ] Bookmarks (toggle + `/bookmarks` view) and notes (per-question, 2000 chars)

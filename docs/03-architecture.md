@@ -17,7 +17,7 @@ graph TD
     end
 
     subgraph Supabase["Supabase · DrKidSurgeon (Postgres 17)"]
-        AUTH["Supabase Auth\nmagic link"]
+        AUTH["Clerk\n(AreYouReadyDoc app)"]
         DB[("Postgres\nprogress · notes · bookmarks · attempts · ai_usage · ai_cache")]
         RLS["Row Level Security\nuser-owned rows only"]
         DB --- RLS
@@ -46,7 +46,8 @@ read, revise, and sit a mock exam.
 | Styling | CSS Modules or vanilla-extract; no utility-framework lock-in | Editorial design, small bundle, no class soup |
 | Markdown | `react-markdown` + `remark-gfm` (build-time rendered where possible) | Answers are markdown with tables |
 | Search | FlexSearch, index built at export time into `data/search-index.json` | Instant, offline, zero infra |
-| Auth | Supabase Auth, email magic link | No passwords; doctors share devices |
+| Auth | Clerk (`AreYouReadyDoc` app): prebuilt sign-in/sign-up, modal buttons + `UserButton` | No passwords or SMTP to run; social providers available (see ADR-0004) |
+| DB | Supabase Postgres + RLS | Already provisioned (`DrKidSurgeon`); Phase 2 wires Clerk JWT → RLS (see ADR-0004) |
 | DB | Supabase Postgres + RLS | Already provisioned (`DrKidSurgeon`) |
 | Client sync | Thin custom sync layer over `fetch`; no realtime subscriptions in v1 | Progress is low-frequency; polling/queue is simpler and cheaper |
 | AI | Vercel route handler → OpenCode Go; Vercel AI SDK if endpoint is OpenAI-compatible (**spike P0-T3**) | Key stays server-side |
@@ -84,7 +85,7 @@ app/
   lessons/page.tsx, lessons/[slug]/page.tsx
   search/ (client island, command-K palette + page)
   bookmarks/page.tsx
-  signin/page.tsx, auth/callback/route.ts
+  sign-in/[[...sign-in]]/page.tsx, sign-up/[[...sign-up]]/page.tsx (Clerk catch-all routes)
   api/sync/route.ts               → batched progress/notes/bookmarks sync
   api/ai/explain/route.ts         → AI proxy (see 06)
 lib/
@@ -122,7 +123,11 @@ connects to Vercel for git-push deploys.
 
 Env vars (names only — values in Vercel dashboard / local `.env.local`,
 never committed): `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`,
-`SUPABASE_SERVICE_ROLE_KEY`, `OPENCODE_GO_API_KEY`.
+`SUPABASE_SERVICE_ROLE_KEY`, `OPENCODE_GO_API_KEY`,
+`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`.
+**Production blocker:** the Clerk dev keys in local `.env.local` do not work on
+Vercel — set production Clerk keys (plus the Supabase and AI keys) in the
+Vercel project env vars before launch (see ADR-0004).
 
 ## Failure-mode plan
 

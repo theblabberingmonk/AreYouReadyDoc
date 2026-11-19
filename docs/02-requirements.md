@@ -36,7 +36,8 @@ Priority: **P0** = launch blocker, **P1** = v1, **P2** = v1.1+.
 - The system shall preserve progress across browser sessions on the same
   device.
 - When a signed-in resident uses a second device, the system shall present the
-  same progress within 5 seconds of page load.
+  same progress within 5 seconds of page load. (Auth provider: Clerk — see
+  [ADR-0004](adr/0004-clerk-auth.md).)
 
 ## 3. Mock-exam mode (P1)
 
@@ -84,7 +85,8 @@ Priority: **P0** = launch blocker, **P1** = v1, **P2** = v1.1+.
 
 ## 7. Accounts & sync (P0 plumbing, P1 UX) — see [ADR-0002](adr/0002-progress-model.md)
 
-- The system shall offer sign-in via email magic link. No passwords.
+- The system shall offer sign-in via Clerk (email, plus social providers as
+  configured in the Clerk dashboard). No passwords stored by this app.
 - The system shall keep every feature except AI fully usable without sign-in.
 - When a resident signs in for the first time on a device with existing local
   progress, the system shall merge local and cloud state (union of revisions;
@@ -171,7 +173,7 @@ Priority: **P0** = launch blocker, **P1** = v1, **P2** = v1.1+.
 | Paper JSON fails to load | Inline retry panel; library remains usable |
 | Sync fails (offline) | Queue locally, retry on reconnect; small "sync pending" indicator, never blocking |
 | Sync conflict (two devices) | Union of revisions; latest note by `updated_at` wins; no user prompt needed |
-| Magic link expired | Clear message + one-tap resend |
+| Clerk session expired | Clear message + sign-in prompt |
 | AI provider 5xx/timeout | Friendly inline error; reading unaffected; retry button |
 | AI quota exceeded | Quota message with reset time; no error styling (it's expected, not a failure) |
 | localStorage full/blocked | Site remains read-only usable; banner explains progress can't be saved locally |

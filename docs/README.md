@@ -24,6 +24,7 @@ updated — update the docs in the same PR as any deviation.
 | [0001](adr/0001-full-stack-platform.md) | Full-stack platform: Next.js on Vercel + Supabase (supersedes static-only plan) | Accepted |
 | [0002](adr/0002-progress-model.md) | Self-marked "revised" progress, anonymous-first with account sync | Accepted |
 | [0003](adr/0003-ai-key-handling.md) | AI key server-side only; no embedded keys, no BYOK in v1 | Accepted |
+| [0004](adr/0004-clerk-auth.md) | Authentication via Clerk; Supabase stays as database (supersedes Supabase magic link) | Accepted |
 
 ## Ground facts these docs are built on
 
