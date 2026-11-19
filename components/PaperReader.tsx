@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import type { Paper, Question } from "@/lib/content";
@@ -202,15 +203,20 @@ export default function PaperReader({ paper }: { paper: Paper }) {
           <span className="bar" style={{ ["--fill" as string]: fill }} aria-hidden="true">
             <span />
           </span>
-          <button
-            type="button"
-            className="btn btn-ghost"
-            onClick={() =>
-              setOpen(allOpen ? new Set() : new Set(paper.questions.map((q) => q.n)))
-            }
-          >
-            {allOpen ? "Collapse all" : "Expand all answers"}
-          </button>
+          <span style={{ display: "inline-flex", gap: 8 }}>
+            <Link href={`/papers/${paper.id}/mock`} className="btn btn-ghost btn-sm">
+              Mock exam
+            </Link>
+            <button
+              type="button"
+              className="btn btn-ghost"
+              onClick={() =>
+                setOpen(allOpen ? new Set() : new Set(paper.questions.map((q) => q.n)))
+              }
+            >
+              {allOpen ? "Collapse all" : "Expand all answers"}
+            </button>
+          </span>
         </div>
       </div>
 
