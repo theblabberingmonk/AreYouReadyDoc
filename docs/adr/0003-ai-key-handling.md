@@ -53,3 +53,8 @@ pastes their own key) is acceptable.
 - Obligation: if the key is ever suspected leaked, rotate it in Vercel env —
   no code change needed; verify no key material appears in build output or
   logs during Phase 5 review.
+
+
+## Update — 2026-11-19
+
+The current chat implementation supersedes the daily quota and shared-cache decision above: all generated answers share 10 questions per UTC calendar week with atomic database reservations. All study pages require authentication under ADR-0005. The owner selected MiMo Flash instead of Muse Contributor to avoid training on chat data. See [current AI implementation](../06-ai-features.md) for sessions, provider constraints, deletion and security controls.

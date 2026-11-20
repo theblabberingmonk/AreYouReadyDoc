@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { useAuth } from "@clerk/nextjs";
 import ReactMarkdown from "react-markdown";
@@ -17,22 +17,26 @@ export default function ExplainDeeper({ paperId, n }: { paperId: string; n: numb
   const [status, setStatus] = useState<Status>({ kind: "idle" });
   const [feedback, setFeedback] = useState<"up" | "down" | null>(null);
 
+  const requestId = useRef<string | null>(null);
+
   const ask = async () => {
+    requestId.current ??= crypto.randomUUID();
     setStatus({ kind: "loading" });
     try {
       const response = await fetch("/api/ai/explain", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ ref: `${paperId}:${n}` }),
+        body: JSON.stringify({ ref: `${paperId}:${n}`, requestId: requestId.current }),
       });
-      const payload = (await response.json()) as { body_md?: string; error?: string; retryable?: boolean };
+      const payload = (await response.json()) as { body_md?: string; error?: string; retryable?: boolean; code?: string };
       if (response.ok && payload.body_md) {
         setStatus({ kind: "done", body: payload.body_md });
       } else {
+        if (payload.code !== "busy") requestId.current = null;
         setStatus({
           kind: "error",
           message: payload.error ?? "AI is unavailable right now.",
-          retryable: response.status === 502 || response.status === 503,
+          retryable: response.status === 409 || response.status === 502 || response.status === 503,
         });
       }
     } catch {
@@ -78,7 +82,7 @@ export default function ExplainDeeper({ paperId, n }: { paperId: string; n: numb
     return (
       <div className="ai-block">
         <button type="button" className="btn btn-ghost btn-sm" onClick={ask}>
-          Explain deeper with AI
+          Explain deeper with AI · 1 weekly question
         </button>
       </div>
     );
@@ -118,7 +122,7 @@ export default function ExplainDeeper({ paperId, n }: { paperId: string; n: numb
         <strong>AI elaboration</strong> · grounded in the answer above
       </p>
       <div className="prose">
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{status.body}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]} components={{ img: () => null, a: ({ children }) => <span>{children}</span> }}>{status.body}</ReactMarkdown>
       </div>
       <p className="muted ai-disclaimer">
         AI-generated elaboration for exam preparation — not clinical guidance.

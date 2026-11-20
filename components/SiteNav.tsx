@@ -31,6 +31,7 @@ export default function SiteNav() {
       <Link href="/bookmarks" aria-current={isBookmarks ? "page" : undefined}>
         Bookmarks
       </Link>
+      <Link href="/chat" aria-current={pathname.startsWith("/chat") ? "page" : undefined}>Ask AI</Link>
       <Suspense>
         <SyncManager />
         <AuthControls />

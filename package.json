@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:ai": "node scripts/test-ai-boundaries.cjs"
   },
   "dependencies": {
     "@clerk/nextjs": "^7.10.4",

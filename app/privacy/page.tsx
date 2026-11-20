@@ -25,10 +25,20 @@ export default function PrivacyPage() {
           only what the site needs to function: your account identifier, your
           revision marks, bookmarks, notes and mock exam attempts.
         </p>
+        <h2>AI study chat</h2>
+        <p>When you use Ask AI or Explain deeper, your question, relevant published
+          study excerpts and recent conversation history are sent to our AI provider,
+          OpenCode. The selected MiMo Flash model currently lists no training on
+          requests and zero data retention at the model provider. We save your chat
+          messages and answers in Supabase under your account so you can reopen them.
+          Please do not enter patient identifiers or confidential clinical information.</p>
+        <p>You can delete a conversation from Ask AI. This removes its message
+          content; minimal usage records remain to enforce the weekly allowance.
+          Provider processing is governed by its own terms and privacy policy.</p>
         <h2>What we never do</h2>
         <ul>
           <li>No advertising trackers. Ever.</li>
-          <li>We never sell personal data — there is nothing to sell.</li>
+          <li>We never sell personal data — we do not use your study activity for advertising.</li>
           <li>Notes you write are private to your account.</li>
         </ul>
         <h2>Analytics</h2>
