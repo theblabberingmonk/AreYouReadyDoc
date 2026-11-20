@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Suspense } from "react";
 import { Inter, Source_Serif_4 } from "next/font/google";
+import PreparationTracker from "@/components/PreparationTracker";
 import SiteHeader from "@/components/SiteHeader";
 import PublicNav from "@/components/PublicNav";
 import "./globals.css";
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           signUpFallbackRedirectUrl="/library"
           appearance={{ variables: { colorPrimary: "#20564d", colorForeground: "#253c37", colorBackground: "#ffffff", borderRadius: "0.75rem", fontFamily: "var(--font-sans), sans-serif" } }}
         >
+          <PreparationTracker />
           <a href="#main-content" className="skip-link">
             Skip to content
           </a>

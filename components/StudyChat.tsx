@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { consumeChat } from "@/lib/ai/client-stream";
 import type { Conversation, Quota, Turn } from "@/lib/ai/contracts";
 
 type State = { conversations: Conversation[]; quota?: Quota; enabled: boolean };
@@ -15,6 +16,11 @@ export default function StudyChat() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [pending, setPending] = useState("");
+  const [partial, setPartial] = useState("");
+  const [interrupted, setInterrupted] = useState(false);
+  const scroll = useRef<HTMLDivElement>(null);
+  const pinned = useRef(true);
+  const abort = useRef<AbortController | null>(null);
   const [deleting, setDeleting] = useState(false);
   const [confirmDelete, setConfirmDelete] = useState(false);
   const retry = useRef<{ id: string; text: string; conversationId?: string } | null>(null);
@@ -36,7 +42,8 @@ export default function StudyChat() {
     } catch(e) { if (active) setError(e instanceof Error ? e.message : "Unable to connect."); }
     finally { if (active) setLoading(false); }
   })(); return () => { active = false; }; }, []);
-  useEffect(() => { end.current?.scrollIntoView({ behavior: "instant", block: "nearest" }); }, [turns, pending]);
+  useEffect(() => { if (pinned.current && scroll.current) scroll.current.scrollTop = scroll.current.scrollHeight; }, [turns, pending, partial]);
+  useEffect(() => () => abort.current?.abort(), []);
 
   async function open(id: string) {
     if (inFlight.current) return;
@@ -45,14 +52,14 @@ export default function StudyChat() {
       const response = await fetch(`/api/ai/chat?conversationId=${id}`, { cache: "no-store" });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error);
-      setConversation(id); setTurns(data.turns); setDraft(""); retry.current = null;
+      setConversation(id); setTurns(data.turns); setDraft(""); setPartial(""); setInterrupted(false); retry.current = null;
       setState(s => ({ ...s, quota: data.quota, enabled: data.enabled }));
     } catch(e) { setError(e instanceof Error ? e.message : "Unable to load conversation."); }
     finally { inFlight.current = false; setLoading(false); }
   }
   function newChat() {
     if (inFlight.current) return;
-    setConversation(undefined); setTurns([]); setDraft(""); setError(""); setConfirmDelete(false); retry.current = null;
+    setConversation(undefined); setTurns([]); setDraft(""); setError(""); setConfirmDelete(false); setPartial(""); setInterrupted(false); retry.current = null;
   }
   async function send(event: React.FormEvent) {
     event.preventDefault();
@@ -60,20 +67,30 @@ export default function StudyChat() {
     if (!text || inFlight.current || !state.enabled || state.quota?.remaining === 0) return;
     const attempt = retry.current?.text === text && retry.current.conversationId === conversation ? retry.current : { id: crypto.randomUUID(), text, conversationId: conversation };
     retry.current = attempt;
-    inFlight.current = true; setBusy(true); setPending(text); setError("");
+    inFlight.current = true; setBusy(true); setPending(text); setPartial(""); setInterrupted(false); setError(""); pinned.current = true;
+    abort.current = new AbortController();
     try {
-      const response = await fetch("/api/ai/chat", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ requestId: attempt.id, conversationId: attempt.conversationId, message: text }) });
-      const data = await response.json();
+      const response = await fetch("/api/ai/chat", { signal: abort.current.signal, method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ requestId: attempt.id, conversationId: attempt.conversationId, message: text }) });
       if (!response.ok) {
-        // Network interruptions retain ID; explicit failures can be safely retried with a new ID.
+        const data = await response.json();
         if (data.code !== "busy") retry.current = null;
         throw new Error(data.error ?? "Unable to answer. Please try again.");
       }
-      setConversation(data.conversationId);
-      if (data.turn) setTurns(ts => ts.some(t => t.id === data.turn.id) ? ts : [...ts, data.turn]);
-      setState(s => ({ ...s, quota: data.quota })); setDraft(""); retry.current = null;
+      if (!response.body) throw new Error("Missing chat response.");
+      await consumeChat(response.body, event => {
+        if (event.type === "delta") setPartial(p => p + event.text);
+        if (event.type === "error") {
+          if (event.code !== "busy" && event.code !== "interrupted") retry.current = null;
+          throw new Error(event.error);
+        }
+        if (event.type === "done") {
+          setConversation(event.conversationId); setPending("");
+          if (event.turn) setTurns(ts => ts.some(t => t.id === event.turn.id) ? ts : [...ts, event.turn]);
+          setState(s => ({ ...s, quota: event.quota })); setDraft(""); setPartial(""); setInterrupted(false); retry.current = null;
+        }
+      });
       try { await refresh(); } catch { /* Reply remains usable if list refresh fails. */ }
-    } catch(e) { setError(e instanceof Error ? e.message : "Connection interrupted. Send again to retrieve your answer without a second charge."); }
+    } catch(e) { setInterrupted(true); setError(e instanceof Error && e.name !== "AbortError" ? e.message : "Answer stopped. Partial text is not a saved answer; you can retry."); }
     finally { inFlight.current = false; setBusy(false); setPending(""); }
   }
   async function remove() {
@@ -83,7 +100,7 @@ export default function StudyChat() {
       const response = await fetch("/api/ai/chat", { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ conversationId: conversation }) });
       const data = await response.json();
       if (!response.ok) throw new Error(data.error);
-      setConversation(undefined); setTurns([]); setDraft(""); setConfirmDelete(false); retry.current = null;
+      setConversation(undefined); setTurns([]); setDraft(""); setConfirmDelete(false); setPartial(""); setInterrupted(false); retry.current = null;
       await refresh();
     } catch(e) { setError(e instanceof Error ? e.message : "Unable to delete."); }
     finally { inFlight.current = false; setDeleting(false); }
@@ -102,11 +119,13 @@ export default function StudyChat() {
       <section className="chat-panel" aria-label="Study conversation" aria-busy={busy || loading}>
         <div className="chat-toolbar"><span>{conversation ? "Study conversation" : "A fresh page"}</span>{conversation && <button className="btn btn-ghost btn-sm" disabled={busy || loading || deleting} onClick={() => setConfirmDelete(!confirmDelete)}>Delete conversation</button>}</div>
         {confirmDelete && <div className="chat-notice"><p>Delete these messages? Your weekly question count will stay the same.</p><button className="btn btn-ghost btn-sm" disabled={deleting} onClick={remove}>{deleting ? "Deleting…" : "Delete messages"}</button><button className="btn btn-ghost btn-sm" onClick={() => setConfirmDelete(false)}>Keep conversation</button></div>}
-        <div className="chat-transcript" role="log" aria-label="Messages" aria-live="polite">
+        <div className="chat-transcript" ref={scroll} onScroll={() => { const el = scroll.current; if (el) pinned.current = el.scrollHeight - el.scrollTop - el.clientHeight < 80; }} role="log" aria-label="Messages" aria-live="off">
           {loading ? <p className="muted">Loading your study space…</p> : !turns.length && !pending ? <div className="chat-welcome"><span className="chat-symbol" aria-hidden="true">✳</span><h2>What would you like<br/>to understand better?</h2><p>Ask about a concept, compare two conditions, or practise an answer for your viva.</p><div className="chat-starters">{["Compare gastroschisis and omphalocele", "Quiz me on posterior urethral valves", "Explain the embryology of malrotation"].map(text => <button key={text} disabled={unavailable} onClick={() => setDraft(text)}>{text}<span aria-hidden="true">↗</span></button>)}</div></div> : null}
           {turns.map(t => <div key={t.id} className="chat-turn"><div className="chat-user"><span>You</span><p>{t.prompt}</p></div><div className="chat-answer"><p className="eyebrow">Study tutor · AI-generated</p><div className="prose"><ReactMarkdown remarkPlugins={[remarkGfm]} components={{ img: () => null, a: ({ children }) => <span>{children}</span> }}>{t.reply}</ReactMarkdown></div>{t.sources?.length > 0 && <div className="chat-sources"><span>Related published answers</span>{t.sources.map(s => <Link key={s.ref} href={s.href}>{s.title} ↗</Link>)}</div>}</div></div>)}
-          {pending && <div className="chat-turn"><div className="chat-user"><span>You</span><p>{pending}</p></div><p className="muted">Preparing your explanation…</p></div>}<div ref={end}/>
+          {pending && <div className="chat-turn"><div className="chat-user"><span>You</span><p>{pending}</p></div><div className="chat-answer"><p className="eyebrow">Study tutor · {partial ? "Writing your answer" : "Thinking"}<span className="chat-typing" aria-hidden="true"> ●</span></p>{partial ? <div className="prose"><ReactMarkdown remarkPlugins={[remarkGfm]} components={{ img: () => null, a: ({ children }) => <span>{children}</span> }}>{partial}</ReactMarkdown><span className="chat-caret" aria-hidden="true"/></div> : <p className="muted">Working through your question…</p>}<button type="button" className="btn btn-ghost btn-sm" onClick={() => abort.current?.abort()}>Stop generating</button></div></div>}<div ref={end}/>
         </div>
+        {interrupted && partial && <div className="chat-interrupted"><p className="eyebrow">Interrupted · partial answer, not saved</p><div className="prose"><ReactMarkdown components={{ img: () => null, a: ({ children }) => <span>{children}</span> }}>{partial}</ReactMarkdown></div></div>}
+        <span className="sr-only" role="status">{busy ? "Answer is streaming. You can stop generation." : ""}</span>
         {error && <div className="chat-notice" role="alert">{error}{!state.quota && <button className="btn btn-ghost btn-sm" onClick={() => { setError(""); refresh().catch(() => setError("Unable to connect. Please try again.")); }}>Try again</button>}</div>}
         {!loading && !state.enabled && !error && <p className="chat-notice">Study chat is being set up. Your published answers are ready in the library.</p>}
         {state.quota?.remaining === 0 && <p className="chat-notice">You’ve used this week’s 10 questions. Your allowance resets {new Date(state.quota.resetsAt).toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}.</p>}

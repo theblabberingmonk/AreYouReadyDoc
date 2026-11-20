@@ -41,11 +41,26 @@ export async function POST(request: Request) {
       previous = history.at(-1)?.prompt ?? "";
     }
     const context = studyContext(`${input.message} ${previous}`);
-    const result = await answer({ userId, requestId: input.requestId, conversationId: input.conversationId, feature: "chat", prompt: input.message, system: CHAT_SYSTEM, context: context.text, sources: context.sources });
-    // Retrieve saved sources on replay rather than recomputing them.
-    const saved = await getServiceClient().from("ai_requests").select("id,prompt,reply,sources").eq("user_id",userId).eq("id",input.requestId).eq("status","completed").single();
-    if (saved.error) throw saved.error;
-    return json({ ...result, turn: saved.data });
+    const abort = new AbortController();
+    const signal = AbortSignal.any([request.signal, abort.signal]);
+    let closed = false;
+    const encoder = new TextEncoder();
+    const body = new ReadableStream<Uint8Array>({
+      async start(controller) {
+        const emit = (event: unknown) => { if (!closed) controller.enqueue(encoder.encode(JSON.stringify(event) + "\n")); };
+        try {
+          emit({ type: "meta", requestId: input.requestId });
+          const result = await answer({ userId, requestId: input.requestId, conversationId: input.conversationId, feature: "chat", prompt: input.message, system: CHAT_SYSTEM, context: context.text, sources: context.sources, signal, onDelta: text => emit({ type: "delta", text }) });
+          const saved = await getServiceClient().from("ai_requests").select("id,prompt,reply,sources").eq("user_id",userId).eq("id",input.requestId).eq("status","completed").single();
+          if (saved.error) throw saved.error;
+          emit({ type: "done", ...result, turn: saved.data });
+        } catch(e) {
+          emit({ type: "error", error: e instanceof AIError ? e.message : "The answer was interrupted. Send again to recover a saved answer or retry.", code: e instanceof AIError ? e.code : "interrupted", status: e instanceof AIError ? e.status : 503 });
+        } finally { if (!closed) { closed = true; controller.close(); } }
+      },
+      cancel() { closed = true; abort.abort(); },
+    });
+    return new Response(body, { headers: { "Content-Type": "application/x-ndjson; charset=utf-8", "Cache-Control": "private, no-store, no-transform", "X-Accel-Buffering": "no" } });
   } catch (e) {
     if (e instanceof InputError) return json({ error: e.message }, 400);
     if (e instanceof AIError) return json({ error: e.message, code: e.code }, e.status);

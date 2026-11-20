@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/sync-study-content.cjs && next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "test:ai": "node scripts/test-ai-boundaries.cjs"
+    "test:ai": "node scripts/test-ai-boundaries.cjs",
+    "test:preparation": "node scripts/test-preparation.cjs",
+    "sync:content": "node scripts/sync-study-content.cjs"
   },
   "dependencies": {
     "@clerk/nextjs": "^7.10.4",

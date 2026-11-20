@@ -55,3 +55,10 @@ Apply `supabase/migrations/*_weekly_ai_chat.sql` before enabling and redeploy af
 7. With provider disabled/unavailable, failures are contained and published answers remain accessible.
 
 Automated database tests live in `scripts/test-ai-quota.sql`; run inside a transaction and roll back all fixtures. `npm run test:ai` checks request validation, provider destination and session headers, and credential redaction. Build/type checks and `scripts/check-public-access.mjs` cover integration boundaries. A complete real-user Google login and browser interaction still need user verification.
+
+
+## Streaming and preparation update — 19 November 2026
+
+Chat now sends real streaming requests to OpenCode and exposes NDJSON meta/delta/done/error frames. Partial replies are labelled unsaved on interruption; a completed reply is persisted exactly once through the existing quota reservation. The final done frame carries the saved turn and counter. The provider key filter holds trailing characters to detect credentials split across chunks. The UI supports stopping generation and keeps drafts for retry. Explain deeper continues to use the non-streaming endpoint.
+
+Opt-in buddy context now retrieves the candidate's saved preparation profile, explicit memories, active-plan progress and recorded revision/mock activity across conversations. Retrieval over published answers is unchanged. See [preparation specification](08-preparation-buddy-spec.md) for implemented backend contracts, activity metrics, content snapshots and future adaptive-agent/notification work. `npm run test:preparation` covers planner boundaries and streaming parser failure cases; `scripts/test-preparation-db.sql` checks database permissions and aggregation.

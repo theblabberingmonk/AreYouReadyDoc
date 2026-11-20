@@ -1,0 +1,44 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');const path=require('node:path');const Module=require('node:module');const ts=require('typescript');
+function load(file){const filename=path.resolve(file);const m=new Module(filename,module);m.filename=filename;m.paths=module.paths;const original=m.require.bind(m);m.require=id=>id==='server-only'?{}:id.startsWith('.')&&fs.existsSync(path.resolve(path.dirname(filename),id+'.ts'))?load(path.resolve(path.dirname(filename),id+'.ts')):original(id);m._compile(ts.transpileModule(fs.readFileSync(filename,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,esModuleInterop:true}}).outputText,filename);return m.exports;}
+const bytes=new TextEncoder();
+const fragmented=text=>new ReadableStream({start(c){for(const b of bytes.encode(text))c.enqueue(Uint8Array.of(b));c.close();}});
+(async()=>{
+  const {ProfileInput,PreparationInput}=load('lib/preparation/contracts.ts');
+  const profile={exam_date:'2026-12-10',time_zone:'Asia/Kolkata',weekly_minutes:[0,60,30,0,45,60,90],focus_topics:['b'],goal:'Clear the exam',memory_enabled:true};
+  assert(ProfileInput.safeParse(profile).success);
+  for(const p of [{...profile,time_zone:'Not/AZone'},{...profile,exam_date:'2026-02-30'},{...profile,weekly_minutes:[60]},{...profile,weekly_minutes:[0,0,0,0,0,0,721]}])assert(!ProfileInput.safeParse(p).success);
+  assert(!PreparationInput.safeParse({action:'update_task',id:crypto.randomUUID(),status:'done',user_id:'someone-else'}).success);
+  const {buildPlan}=load('lib/preparation/planner.ts');
+  const modules=[{slug:'a',title:'A'},{slug:'b',title:'B'},{slug:'c',title:'C'}];
+  const plan=buildPlan(profile,modules,'2026-11-20',84);
+  assert(plan.length>0);assert.equal(plan[0].topic_slug,'b');
+  assert.deepEqual(buildPlan(profile,modules,'2026-11-20',84),plan);
+  const totals={};for(const task of plan){assert(task.scheduled_date<profile.exam_date);assert(task.minutes>0);totals[task.scheduled_date]=(totals[task.scheduled_date]??0)+task.minutes;}
+  for(const [day,minutes]of Object.entries(totals))assert(minutes<=profile.weekly_minutes[new Date(day+'T12:00:00Z').getUTCDay()]);
+  assert(plan.some(t=>t.kind==='revision'));
+  assert.equal(buildPlan({...profile,weekly_minutes:[0,0,0,0,0,0,0]},modules,'2026-11-20',14).length,0);
+  assert.equal(buildPlan(profile,modules,'2026-12-10',7).length,0);
+  const {sseData}=load('lib/ai/stream.ts');
+  const events=[];for await(const event of sseData(fragmented('data: {"x":"é"}\r\n\r\ndata: [DONE]\n\n')))events.push(event);
+  assert.deepEqual(events,['{"x":"é"}','[DONE]']);
+  const {consumeChat}=load('lib/ai/client-stream.ts');
+  const received=[];await consumeChat(fragmented('{"type":"delta","text":"α"}\n{"type":"done","conversationId":"c"}\n'),e=>received.push(e));assert.equal(received[0].text,'α');
+  await assert.rejects(consumeChat(fragmented('{"type":"delta","text":"partial"}\n'),()=>{}));
+  const {generateStream}=load('lib/ai/provider.ts');
+  process.env.AI_ENABLED='true';process.env.OPENCODE_GO_API_KEY='private-test-key';delete process.env.OPENCODE_GO_BASE_URL;
+  let controller;const body=new ReadableStream({start(c){controller=c;}});let request;
+  global.fetch=async(url,options)=>{request=JSON.parse(options.body);return new Response(body);};
+  const iterator=generateStream([{role:'user',content:'Test'}],'same-session');
+  const first=iterator.next();
+  controller.enqueue(bytes.encode('data: '+JSON.stringify({choices:[{delta:{content:'A first explanation arriving before the provider finishes.'}}]})+'\n\n'));
+  const delta=await Promise.race([first,new Promise((_,reject)=>setTimeout(()=>reject(new Error('Streaming was buffered')),2000))]);
+  assert.equal(delta.done,false);assert(delta.value.length>0);assert.equal(request.stream,true);
+  controller.enqueue(bytes.encode('data: {"choices":[{"delta":{},"finish_reason":"stop"}]}\n\ndata: [DONE]\n\n'));controller.close();
+  let full=delta.value;for await(const d of iterator)full+=d;assert(full.includes('provider finishes.'));
+  global.fetch=async()=>new Response(fragmented('data: {"choices":[{"delta":{"content":"private-"}}]}\n\ndata: {"choices":[{"delta":{"content":"test-key"}}]}\n\n'));
+  let leaked='';await assert.rejects(async()=>{for await(const d of generateStream([],'s'))leaked+=d;});assert(!leaked.includes('private-test-key'));
+  global.fetch=async()=>new Response(fragmented('data: {"choices":[{"delta":{"content":"Incomplete answer"}}]}\n\n'));
+  await assert.rejects(async()=>{for await(const d of generateStream([],'s'))void d;});
+  console.log('PASS: profile validation, ownership inputs, deterministic capacity/exam-date planner, fragmented SSE/Unicode, early streaming, truncated stream rejection and split-secret protection');
+})().catch(e=>{console.error(e);process.exitCode=1;});

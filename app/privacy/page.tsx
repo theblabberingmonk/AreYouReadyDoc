@@ -35,6 +35,18 @@ export default function PrivacyPage() {
         <p>You can delete a conversation from Ask AI. This removes its message
           content; minimal usage records remain to enforce the weekly allowance.
           Provider processing is governed by its own terms and privacy policy.</p>
+        <h2>Your preparation record and activity</h2>
+        <p>We store the study profile, exam target, plans, task status, explicit
+          memories and reminders you save. When you enable buddy personalisation,
+          a limited preparation summary is included with AI chat requests. You can
+          turn personalisation off and remove saved memories in My plan.</p>
+        <p>We record pages and question titles viewed, estimated active time while
+          the app is visible, and committed actions such as revision marks, notes,
+          bookmarks, mock attempts and AI answers. My plan shows your private
+          preparation metrics and recent activity. We do not record keystroke
+          contents. Active app time and self-ratings are not measures of mastery.</p>
+        <p>Reminders currently appear inside the app; no email or push notifications
+          are sent. Metrics begin when tracking is enabled and do not invent earlier activity.</p>
         <h2>What we never do</h2>
         <ul>
           <li>No advertising trackers. Ever.</li>

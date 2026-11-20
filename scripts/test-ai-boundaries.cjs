@@ -9,7 +9,7 @@ function load(file) {
   const m = new Module(filename, module);
   m.filename = filename; m.paths = module.paths;
   const original = m.require.bind(m);
-  m.require = id => id === 'server-only' ? {} : original(id);
+  m.require = id => id === 'server-only' ? {} : id.startsWith('.') && fs.existsSync(path.resolve(path.dirname(filename),id+'.ts')) ? load(path.resolve(path.dirname(filename),id+'.ts')) : original(id);
   m._compile(ts.transpileModule(fs.readFileSync(filename,'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022, esModuleInterop:true } }).outputText,filename);
   return m.exports;
 }
